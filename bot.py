@@ -10,8 +10,35 @@ TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
 # لیست اکانت‌ها و کلمات کلیدی شما
-TWITTER_ACCOUNTS = ['elonmusk', 'Binance', 'VitalikButerin']
-KEYWORDS = ['crypto', 'bitcoin', 'btc', 'eth', 'launch', 'tesla', 'ai']
+TWITTER_ACCOUNTS = [    "ethereum", "BNBCHAIN", "circle", "CantonNetwork", "ton_blockchain",
+    "hedera", "SuiNetwork", "NEARProtocol", "worldnetwork", "OndoFoundation",
+    "Aster_DEX", "DexeNetwork", "dfinity", "Morpho", "rendernetwork",
+    "AlgoFoundation", "Stable", "JupiterExchange", "injective", "Nexo",
+    "pudgypenguins", "Lighter_xyz", "AerodromeFi", "LidoFinance", "pendle_fi",
+    "SonicLabs", "soon_svm", "AttentionToken", "MatrixAINetwork", "kamino",
+    "0xfluid", "ether-fi", "LayerZero_Fndn"]
+KEYWORDS = KEYWORDS = ["upgrade",
+            "mainnet",
+            "V2",
+            "V3",
+            "V4",
+            "launch",
+            "protocol change",
+            "governance vote",
+            "proposal passed",
+            "tokenomics update",
+            "emission change",
+            "burn",
+            "buyback", 
+            "revenue",
+            "fees generated",
+            "TVL increase",
+            "inflows",
+            "outflows",
+            "institutional",
+            "onchain activity",
+            "volume growth"
+]
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
