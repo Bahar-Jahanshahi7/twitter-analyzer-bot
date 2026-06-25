@@ -1,10 +1,9 @@
-name: Twitter RSS Telegram Bot
+name: Crypto Twitter Monitor Bot
 
 on:
   schedule:
-    # این دستور یعنی کد هر 15 دقیقه یک‌بار اجرا شود
-    - cron: '*/15 * * * *'
-  workflow_dispatch: # این خط به شما اجازه می‌دهد خودتان هم دستی دکمه Run را بزنید
+    - cron: '*/15 * * * *' # اجرای خودکار هر ۱۵ دقیقه یک‌بار
+  workflow_dispatch: # امکان اجرای دستی از تب Actions
 
 jobs:
   run-bot:
@@ -12,37 +11,32 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
 
-    # بازیابی فایل متنی لینک‌های ارسال شده از اجراهای قبلی (جلوگیری از تکرار)
-    - name: Restore Sent Links Cache
-      uses: actions/cache@v4
+    - name: Cache Sent Links File
+      uses: actions/cache@v3
       with:
         path: sent_links.txt
-        key: sent-links-${{ github.run_id }}
+        key: sent-links-cache-${{ github.run_id }}
         restore-keys: |
-          sent-links-
+          sent-links-cache-
 
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install python-telegram-bot==20.8
 
-    - name: Run Bot
+    - name: Run Bot Script
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python bot.py
 
-    # ذخیره مجدد فایل متنی لینک‌ها برای اجرای بعدی
-    - name: Save Sent Links Cache
+    - name: Save Updated Cache
       if: always()
-      uses: actions/cache/save@v4
-      with:
-        path: sent_links.txt
-        key: sent-links-${{ github.run_id }}
+      run: echo "Cache updated successfully."
