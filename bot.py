@@ -4,14 +4,13 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
 import html
-import sqlite3
 from telegram import Bot
 
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
-# نام فایل دیتابیس برای ذخیره لینک‌های ارسال شده
-DB_FILE = "sent_tweets.db"
+# فایل متنی ساده برای ذخیره لینک‌ها مخصوص گیت‌هاب
+TXT_FILE = "sent_links.txt"
 
 TWITTER_ACCOUNTS = [
     "ethereum", "BNBCHAIN", "circle", "CantonNetwork", "ton_blockchain",
@@ -31,46 +30,23 @@ KEYWORDS = [
     "outflows", "institutional", "onchain activity", "volume growth"
 ]
 
+# خواندن لینک‌های قبلی از فایل
+if os.path.exists(TXT_FILE):
+    with open(TXT_FILE, "r") as f:
+        SENT_LINKS = set(line.strip() for line in f if line.strip())
+else:
+    SENT_LINKS = set()
+
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
-def init_db():
-    """ایجاد دیتابیس و جدول ذخیره لینک‌ها در صورت عدم وجود"""
-    conn = sqlite3.connect(DB_FILE)
-    cursor = conn.cursor()
-    cursor.execute('''
-        CREATE TABLE IF NOT EXISTS sent_links (
-            link TEXT PRIMARY KEY,
-            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-        )
-    ''')
-    conn.commit()
-    conn.close()
-
-def is_already_sent(link):
-    """بررسی اینکه آیا این لینک قبلاً ارسال شده است یا خیر"""
-    conn = sqlite3.connect(DB_FILE)
-    cursor = conn.cursor()
-    cursor.execute("SELECT 1 FROM sent_links WHERE link = ?", (link,))
-    result = cursor.fetchone()
-    conn.close()
-    return result is not None
-
 def save_link(link):
-    """ذخیره لینک جدید در دیتابیس پس از ارسال موفق"""
-    try:
-        conn = sqlite3.connect(DB_FILE)
-        cursor = conn.cursor()
-        cursor.execute("INSERT INTO sent_links (link) VALUES (?)", (link,))
-        conn.commit()
-        conn.close()
-    except sqlite3.IntegrityError:
-        pass  # لینک از قبل وجود داشته است
+    """ذخیره لینک جدید در فایل متنی"""
+    with open(TXT_FILE, "a") as f:
+        f.write(f"{link}\n")
+    SENT_LINKS.add(link)
 
 async def main_pipeline():
     print("Checking tweets via Google News RSS Pipeline...")
-    
-    # اطمینان از آماده بودن دیتابیس
-    init_db()
     
     for account in TWITTER_ACCOUNTS:
         try:
@@ -87,7 +63,6 @@ async def main_pipeline():
             items = root.findall('.//item')[:3]
             
             if not items:
-                print(f"No recent indexed tweets found for @{account} on Google News.")
                 await asyncio.sleep(1)
                 continue
 
@@ -95,8 +70,8 @@ async def main_pipeline():
                 title = item.find('title').text if item.find('title') is not None else ""
                 tweet_link = item.find('link').text if item.find('link') is not None else ""
                 
-                # ۱. بررسی تکراری نبودن لینک پیش از هر کاری
-                if not tweet_link or is_already_sent(tweet_link):
+                # چک کردن تکراری بودن در Set پایتون
+                if not tweet_link or tweet_link in SENT_LINKS:
                     continue
                 
                 tweet_text = title.split(' - ')[0] if ' - ' in title else title
@@ -108,16 +83,13 @@ async def main_pipeline():
                     final_message = (
                         f"🔔 <b>توییت جدید از: @{account}</b>\n\n"
                         f"📝 <b>متن توییت:</b>\n{safe_tweet_text}\n\n"
-                        f"🔗 <a href='{tweet_link}'>لینک منبع (گوگل نیوز)</a>"
+                        f"🔗 <a href='{tweet_link}'>لینک منبع</a>"
                     )
                     
                     try:
                         await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
                         print(f"Message sent for @{account} successfully!")
-                        
-                        # ۲. ذخیره در دیتابیس پس از ارسال موفقیت‌آمیز
                         save_link(tweet_link)
-                        
                     except Exception as tg_err:
                         print(f"Error sending Telegram: {tg_err}")
             
