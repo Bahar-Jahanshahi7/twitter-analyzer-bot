@@ -51,7 +51,7 @@ def get_full_tweet_text(google_news_url):
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
         req = urllib.request.Request(google_news_url, headers=headers)
         
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=5) as response:
             final_url = response.geturl()
             html_content = response.read().decode('utf-8', errors='ignore')
         
