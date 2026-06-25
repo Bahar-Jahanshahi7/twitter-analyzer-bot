@@ -1,34 +1,48 @@
-name: 30-Min Twitter Checker
+name: Twitter RSS Telegram Bot
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
-
-env:
-  # این خط باعث می‌شود گیت‌هاب هشدارهای مربوط به نسخه Node اکشن‌ها را نادیده بگیرد و خروجی را تمیز نگه دارد
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
+    # این دستور یعنی کد هر 15 دقیقه یک‌بار اجرا شود
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # این خط به شما اجازه می‌دهد خودتان هم دستی دکمه Run را بزنید
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout repository code
+    - name: Checkout Repository
       uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.10'
 
-    - name: Install dependencies
+    # بازیابی فایل متنی لینک‌های ارسال شده از اجراهای قبلی (جلوگیری از تکرار)
+    - name: Restore Sent Links Cache
+      uses: actions/cache@v4
+      with:
+        path: sent_links.txt
+        key: sent-links-${{ github.run_id }}
+        restore-keys: |
+          sent-links-
+
+    - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Python Bot
+    - name: Run Bot
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python bot.py
+
+    # ذخیره مجدد فایل متنی لینک‌ها برای اجرای بعدی
+    - name: Save Sent Links Cache
+      if: always()
+      uses: actions/cache/save@v4
+      with:
+        path: sent_links.txt
+        key: sent-links-${{ github.run_id }}
