@@ -11,22 +11,9 @@ TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
 TXT_FILE = "sent_links.txt"
 
-# لیست کلمات کلیدی هوشمند شما
-KEYWORDS = [
-    "upgrade", "mainnet", "V2", "V3", "V4", "launch",
-    "protocol change", "governance vote", "proposal passed",
-    "tokenomics update", "emission change", "burn", "buyback", 
-    "revenue", "fees generated", "TVL increase", "inflows", 
-    "outflows", "institutional", "onchain activity", "volume growth"
-]
-
-# تگ یا نام پروژه‌های شما برای فیلتر دقیق‌تر در متن خبر
-PROJECTS = [
-    "Ethereum", "ETH", "BNB", "Circle", "USDC", "TON", "Hedera", "HBAR", 
-    "Sui", "NEAR", "Worldnetwork", "Ondo", "Dexe", "Dfinity", "ICP", "Morpho", 
-    "Render", "RNDR", "Algorand", "ALGO", "Jupiter", "JUP", "Injective", "INJ", 
-    "Nexo", "Aerodrome", "Lido", "LDO", "Pendle", "LayerZero"
-]
+# 🧪 لیست موقت فقط برای تستِ ارسال ربات:
+KEYWORDS = ["crypto", "bitcoin", "market", "the", "price", "new"]
+PROJECTS = ["crypto", "bitcoin", "market", "the", "price", "new"]
 
 if os.path.exists(TXT_FILE):
     with open(TXT_FILE, "r") as f:
