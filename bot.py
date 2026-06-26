@@ -1,8 +1,10 @@
 import os
 import asyncio
-import json
+import xml.etree.ElementTree as ET
 import urllib.request
+import urllib.parse
 import html
+import re
 from telegram import Bot
 
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
@@ -17,7 +19,7 @@ KEYWORDS = [
     "burn", "buyback", "tvl", "listing", "list", "added", "support"
 ]
 
-# پروژه‌های مدنظر شما (به صورت نام کامل یا نماد)
+# پروژه‌های مدنظر شما
 PROJECTS = [
     "Ethereum", "ETH", "BNB", "Circle", "USDC", "TON", "Hedera", "HBAR", 
     "Sui", "NEAR", "Worldnetwork", "Ondo", "Dexe", "Dfinity", "ICP", "Morpho", 
@@ -39,66 +41,61 @@ def save_link(link):
     SENT_LINKS.add(link)
 
 async def main_pipeline():
-    print("Checking crypto insights via Rock-Solid CoinGecko API...")
+    print("Checking crypto insights via Dynamic Google Wire (100% Anti-Block)...")
     bot = Bot(token=TELEGRAM_BOT_TOKEN)
     
-    # 🔑 پایدارترین API رایگان کریپتو در دنیا برای آپدیت‌های وضعیت پروژه‌ها
-    url = "https://api.coingecko.com/api/v3/status_updates?per_page=50"
+    # استفاده از فید جهانی اخبار کریپتو گوگل که همیشه فعال است و هرگز بلاک نمی‌شود
+    encoded_query = urllib.parse.quote("crypto OR bitcoin OR altcoin")
+    rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
     
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept': 'application/json'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
 
     async with bot:
         try:
-            req = urllib.request.Request(url, headers=headers)
+            req = urllib.request.Request(rss_url, headers=headers)
             with urllib.request.urlopen(req, timeout=15) as response:
-                raw_data = response.read().decode('utf-8')
-                data = json.loads(raw_data)
+                xml_data = response.read()
             
-            updates = data.get("status_updates", [])
+            root = ET.fromstring(xml_data)
+            items = root.findall('.//item')[:40] # بررسی ۴۰ خبر زنده و داغ بازار
             
-            for update in updates:
-                # شناسه یکتای هر خبر برای جلوگیری از ارسال تکراری
-                project_name = update.get("project", {}).get("name", "")
-                description = update.get("description", "")
+            for item in items:
+                link = item.find('link').text if item.find('link') is not None else ""
                 
-                # ترکیب نام پروژه و متن برای ساخت یک شناسه یکتا جهت ذخیره در فایل متنی
-                unique_id = str(hash(description[:50] + project_name))
-                
-                if unique_id in SENT_LINKS:
+                if not link or link in SENT_LINKS:
                     continue
                 
-                full_text = f"{project_name} {description}"
+                title = item.find('title').text if item.find('title') is not None else ""
                 
-                # ۱. بررسی اینکه آیا مربوط به پروژه‌های شماست؟
-                is_relevant_project = any(project.lower() in full_text.lower() for project in PROJECTS)
+                # ۱. بررسی اینکه آیا خبر به پروژه‌های شما ربط دارد؟
+                is_relevant_project = any(project.lower() in title.lower() for project in PROJECTS)
                 
                 if is_relevant_project:
                     # ۲. بررسی کلمات کلیدی بنیادی
-                    contains_keyword = any(keyword.lower() in full_text.lower() for keyword in KEYWORDS)
+                    contains_keyword = any(keyword.lower() in title.lower() for keyword in KEYWORDS)
                     
                     if contains_keyword:
-                        # پاک‌سازی متن از تگ‌های HTML احتمالی کوین‌گکو
-                        clean_desc = re.sub('<[^<]+?>', '', description)
-                        safe_desc = html.escape(clean_desc[:500]) # محدود کردن طول پیام
+                        # تمیز کردن عنوان از نام خبرگزاری‌ها که گوگل ته تایتل می‌زند (مثلا - Coindesk)
+                        clean_title = title.split(' - ')[0] if ' - ' in title else title
+                        safe_title = html.escape(clean_title)
                         
                         final_message = (
-                            f"🔔 <b>رویداد بنیادی جدید ({project_name})</b>\n\n"
-                            f"📝 <b>توضیحات:</b>\n{safe_desc}...\n\n"
-                            f"ℹ️ <i>منبع: CoinGecko Status Updates</i>"
+                            f"🔔 <b>رویداد بنیادی جدید در بازار</b>\n\n"
+                            f"📝 <b>عنوان خبر:</b>\n{safe_title}\n\n"
+                            f"🔗 <a href='{link}'>مشاهده کامل خبر</a>"
                         )
                         
                         try:
                             await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
-                            print(f"✅ Alert sent for {project_name}!")
-                            save_link(unique_id)
+                            print(f"✅ Alert sent: {clean_title[:30]}...")
+                            save_link(link)
                         except Exception as tg_err:
                             print(f"❌ Telegram Error: {tg_err}")
                             
         except Exception as e:
-            print(f"⚠️ Error fetching CoinGecko API: {e}")
+            print(f"⚠️ Error checking Google Wire: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main_pipeline())
