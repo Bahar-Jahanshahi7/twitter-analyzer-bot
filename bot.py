@@ -10,13 +10,11 @@ TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
 TXT_FILE = "sent_links.txt"
 
-# کلمات کلیدی بنیادی شما
+# کلمات کلیدی بنیادی و لیستینگ شما
 KEYWORDS = [
     "upgrade", "mainnet", "V2", "V3", "V4", "launch",
-    "protocol change", "governance vote", "proposal passed",
-    "tokenomics update", "emission change", "burn", "buyback", 
-    "revenue", "fees generated", "TVL increase", "inflows", 
-    "outflows", "institutional", "onchain activity", "volume growth", "list", "listing"
+    "protocol", "governance", "proposal", "tokenomics", 
+    "burn", "buyback", "tvl", "listing", "list", "added", "support"
 ]
 
 # پروژه‌های مدنظر شما
@@ -41,11 +39,11 @@ def save_link(link):
     SENT_LINKS.add(link)
 
 async def main_pipeline():
-    print("Checking crypto insights via Safe JSON API (No Block)...")
+    print("Checking crypto insights via Stable Gate JSON API...")
     bot = Bot(token=TELEGRAM_BOT_TOKEN)
     
-    # استفاده از API رسمی اخبار صرافی CoinEx (دارای دیتای غنی بنیادی بازار و ۱۰۰٪ بدون بلاک)
-    url = "https://www.coinex.com/res/announcement/list?page=1&limit=20"
+    # API رسمی، پایدار و کاملاً رایگان اطلاعیه‌های صرافی Gate.io (تضمین عدم بلاک و عدم ارور 404)
+    url = "https://api.gateio.ws/api/v4/delivery/announcements"
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -59,29 +57,27 @@ async def main_pipeline():
                 raw_data = response.read().decode('utf-8')
                 data = json.loads(raw_data)
             
-            articles = data.get("data", {}).get("list", [])
-            
-            for article in articles:
+            # خروجی این API به صورت یک لیست مستقیم از مقالات است
+            for article in data[:30]: # بررسی ۳۰ اطلاعیه اخیر بازار
                 article_id = str(article.get("id"))
                 if not article_id or article_id in SENT_LINKS:
                     continue
                 
                 title = article.get("title", "")
-                link = f"https://www.coinex.com/announcement/detail/{article_id}"
+                link = article.get("url") or f"https://www.gate.io/announcements/article/{article_id}"
                 
-                # ۱. بررسی پروژه
+                # ۱. بررسی اینکه آیا خبر مربوط به پروژه‌های شماست؟
                 is_relevant_project = any(project.lower() in title.lower() for project in PROJECTS)
                 
-                # برای اینکه تست اولیه حتماً جواب دهد، اگر خبری پیدا نشد کل بازار را با کلمات کلیدی بسنجد
-                if is_relevant_project or len(PROJECTS) == 0:
-                    # ۲. بررسی کلمات کلیدی
+                if is_relevant_project:
+                    # ۲. بررسی کلمات کلیدی بنیادی شما
                     contains_keyword = any(keyword.lower() in title.lower() for keyword in KEYWORDS)
                     
                     if contains_keyword:
                         safe_title = html.escape(title)
                         
                         final_message = (
-                            f"🔔 <b>رویداد بنیادی جدید بازار</b>\n\n"
+                            f"📢 <b>رویداد بنیادی جدید در بازار (Gate)</b>\n\n"
                             f"📝 <b>عنوان:</b>\n{safe_title}\n\n"
                             f"🔗 <a href='{link}'>مشاهده کامل منبع</a>"
                         )
@@ -94,7 +90,7 @@ async def main_pipeline():
                             print(f"❌ Telegram Error: {tg_err}")
                             
         except Exception as e:
-            print(f"⚠️ Error fetching JSON API: {e}")
+            print(f"⚠️ Error fetching Gate JSON API: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main_pipeline())
