@@ -1,11 +1,8 @@
 import os
 import asyncio
-import xml.etree.ElementTree as ET
+import json
 import urllib.request
-import urllib.parse
 import html
-import re
-
 from telegram import Bot
 
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
@@ -13,16 +10,7 @@ TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
 TXT_FILE = "sent_links.txt"
 
-TWITTER_ACCOUNTS = [
-    "ethereum", "BNBCHAIN", "circle", "CantonNetwork", "ton_blockchain",
-    "hedera", "SuiNetwork", "NEARProtocol", "worldnetwork", "OndoFoundation",
-    "Aster_DEX", "DexeNetwork", "dfinity", "Morpho", "rendernetwork",
-    "AlgoFoundation", "Stable", "JupiterExchange", "injective", "Nexo",
-    "pudgypenguins", "Lighter_xyz", "AerodromeFi", "LidoFinance", "pendle_fi",
-    "SonicLabs", "soon_svm", "AttentionToken", "MatrixAINetwork", "kamino",
-    "0xfluid", "ether-fi", "LayerZero_Fndn"
-]
-
+# کلمات کلیدی ارزشمند شما برای فیلتر کردن اخبار مهم
 KEYWORDS = [
     "upgrade", "mainnet", "V2", "V3", "V4", "launch",
     "protocol change", "governance vote", "proposal passed",
@@ -31,105 +19,84 @@ KEYWORDS = [
     "outflows", "institutional", "onchain activity", "volume growth"
 ]
 
-# خواندن تاریخچه فایل متنی برای جلوگیری از ارسال پیام تکراری
+# لیست نماد (Ticker) پروژه‌های شما برای مانیتور دقیق‌تر
+PROJECT_TICKERS = [
+    "ETH", "BNB", "USDC", "TON", "HBAR", "SUI", "NEAR", "WORLD", "ONDO", 
+    "DFI", "RNDR", "ALGO", "JUP", "INJ", "NEXO", "AERO", "LDO", "PENDLE"
+]
+
 if os.path.exists(TXT_FILE):
     with open(TXT_FILE, "r") as f:
         SENT_LINKS = set(line.strip() for line in f if line.strip())
 else:
+    with open(TXT_FILE, "w") as f:
+        f.write("")
     SENT_LINKS = set()
-
-bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 def save_link(link):
     with open(TXT_FILE, "a") as f:
         f.write(f"{link}\n")
     SENT_LINKS.add(link)
 
-def get_full_tweet_text(google_news_url):
-    """دنبال کردن لینک گوگل نیوز و استخراج متن کامل توییت از متاتگ‌ها"""
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        req = urllib.request.Request(google_news_url, headers=headers)
-        
-        with urllib.request.urlopen(req, timeout=5) as response:
-            final_url = response.geturl()
-            html_content = response.read().decode('utf-8', errors='ignore')
-        
-        # پیدا کردن متن کامل توییت از متاتگ og:description یا twitter:description
-        match = re.search(r'<meta\s+property=["\']og:description["\']\s+content=["\'](.*?)["\']', html_content, re.DOTALL | re.IGNORECASE)
-        if not match:
-            match = re.search(r'<meta\s+name=["\']twitter:description["\']\s+content=["\'](.*?)["\']', html_content, re.DOTALL | re.IGNORECASE)
-            
-        if match:
-            full_text = html.unescape(match.group(1))
-            if "on X:" in full_text:
-                full_text = full_text.split("on X:", 1)[-1].strip()
-            elif "on Twitter:" in full_text:
-                full_text = full_text.split("on Twitter:", 1)[-1].strip()
-            return full_text, final_url
-            
-        return None, final_url
-    except Exception as e:
-        print(f"Error fetching full text from URL: {e}")
-        return None, google_news_url
-
 async def main_pipeline():
-    print("Checking tweets via Google News Deep Scan Pipeline (GitHub Actions)...")
+    print("Checking crypto insights via CryptoPanic Aggregator API...")
+    bot = Bot(token=TELEGRAM_BOT_TOKEN)
     
-    for account in TWITTER_ACCOUNTS:
-        try:
-            query = f'site:x.com/{account} OR site:twitter.com/{account}'
-            encoded_query = urllib.parse.quote(query)
-            rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-            
-            req = urllib.request.Request(rss_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
-            
-            with urllib.request.urlopen(req) as response:
-                xml_data = response.read()
-            
-            root = ET.fromstring(xml_data)
-            items = root.findall('.//item')[:3]
-            
-            if not items:
-                await asyncio.sleep(1)
-                continue
+    # 🔑 یک API Key رایگان از سایت Cryptopanic.com بگیرید و جایگزین کنید (یا در Secrets گیت‌هاب بگذارید)
+    # اگر تمایل دارید کاملاً بدون توکن باشد، می‌توان از فید RSS عمومی آن‌ها نیز استفاده کرد.
+    API_KEY = "YOUR_CRYPTOPANIC_FREE_API_KEY" 
+    
+    # لینک فید اخبار کریپتو (نسخه عمومی بدون نیاز به کلید هم برای تست کار می‌کند)
+    url = f"https://cryptopanic.com/api/v1/posts/?auth_token={API_KEY}&public=true&kind=news"
+    if API_KEY == "YOUR_CRYPTOPANIC_FREE_API_KEY":
+        url = "https://cryptopanic.com/api/v1/posts/?public=true&kind=news"
 
-            for item in items:
-                google_link = item.find('link').text if item.find('link') is not None else ""
-                
-                if not google_link or google_link in SENT_LINKS:
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+
+    async with bot:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as response:
+                data = json.loads(response.read().decode('utf-8'))
+            
+            posts = data.get("results", [])
+            
+            for post in posts:
+                post_link = post.get("url") or post.get("id")
+                if not post_link or str(post_link) in SENT_LINKS:
                     continue
                 
-                # استخراج متن کامل و لینک واقعی
-                tweet_text, real_tweet_url = get_full_tweet_text(google_link)
+                title = post.get("title", "")
+                currencies = [c.get("code", "").upper() for c in post.get("currencies", [])]
                 
-                if not tweet_text:
-                    title = item.find('title').text if item.find('title') is not None else ""
-                    tweet_text = title.split(' - ')[0] if ' - ' in title else title
+                # ۱. بررسی اینکه آیا خبر مربوط به یکی از پروژه‌های درخواستی شما هست یا خیر
+                is_relevant_project = any(ticker in currencies for ticker in PROJECT_TICKERS) or len(PROJECT_TICKERS) == 0
                 
-                contains_keyword = any(keyword.lower() in tweet_text.lower() for keyword in KEYWORDS)
-                
-                if contains_keyword:
-                    safe_tweet_text = html.escape(tweet_text)
+                if is_relevant_project:
+                    # ۲. بررسی کلمات کلیدی در عنوان خبر
+                    contains_keyword = any(keyword.lower() in title.lower() for keyword in KEYWORDS)
                     
-                    final_message = (
-                        f"🔔 <b>توییت جدید از: @{account}</b>\n\n"
-                        f"📝 <b>متن کامل توییت:</b>\n{safe_tweet_text}\n\n"
-                        f"🔗 <a href='{real_tweet_url}'>لینک مستقیم توییت</a>"
-                    )
-                    
-                    try:
-                        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
-                        print(f"Message sent for @{account} successfully!")
-                        save_link(google_link)
-                    except Exception as tg_err:
-                        print(f"Error sending Telegram: {tg_err}")
-            
-            await asyncio.sleep(2)
+                    if contains_keyword:
+                        safe_title = html.escape(title)
+                        project_tags = ", ".join([f"#{c}" for c in currencies])
                         
+                        final_message = (
+                            f"🔔 <b>خبر جدید دامنه‌های بنیادی ({project_tags})</b>\n\n"
+                            f"📝 <b>عنوان:</b>\n{safe_title}\n\n"
+                            f"🔗 <a href='{post.get('url')}'>لینک منبع خبر</a>"
+                        )
+                        
+                        try:
+                            await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
+                            print(f"✅ Message sent: {title[:30]}")
+                            save_link(str(post_link))
+                        except Exception as tg_err:
+                            print(f"❌ Telegram Error: {tg_err}")
+                            
         except Exception as e:
-            print(f"Error checking @{account}: {e}")
-            await asyncio.sleep(2)
+            print(f"⚠️ Error fetching from CryptoPanic: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main_pipeline())
