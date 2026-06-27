@@ -4,98 +4,187 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
 import html
-import re
+import random
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from telegram import Bot
+from google import genai
 
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
+GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
 
-TXT_FILE = "sent_links.txt"
+DB_FILE = "sent_tweets_ai.txt"
 
-# کلمات کلیدی بنیادی شما
-KEYWORDS = [
-    "upgrade", "mainnet", "V2", "V3", "V4", "launch",
-    "protocol", "governance", "proposal", "tokenomics", 
-    "burn", "buyback", "tvl", "listing", "list", "added", "support"
+TWITTER_ACCOUNTS = [
+    "ethereum", "BNBCHAIN", "circle", "CantonNetwork", "ton_blockchain",
+    "hedera", "SuiNetwork", "NEARProtocol", "worldnetwork", "OndoFoundation",
+    "Aster_DEX", "DexeNetwork", "dfinity", "Morpho", "rendernetwork",
+    "AlgoFoundation", "Stable", "JupiterExchange", "injective", "Nexo",
+    "pudgypenguins", "Lighter_xyz", "AerodromeFi", "LidoFinance", "pendle_fi",
+    "SonicLabs", "soon_svm", "AttentionToken", "MatrixAINetwork", "kamino",
+    "0xfluid", "ether-fi", "LayerZero_Fndn"
 ]
 
-# پروژه‌های مدنظر شما
-PROJECTS = [
-    "Ethereum", "ETH", "BNB", "Circle", "USDC", "TON", "Hedera", "HBAR", 
-    "Sui", "NEAR", "Worldnetwork", "Ondo", "Dexe", "Dfinity", "ICP", "Morpho", 
-    "Render", "RNDR", "Algorand", "ALGO", "Jupiter", "JUP", "Injective", "INJ", 
-    "Nexo", "Aerodrome", "Lido", "LDO", "Pendle", "LayerZero"
+# لیست سرورهای فعال Nitter برای پشتیبان‌گیری از یکدیگر
+NITTER_INSTANCES = [
+    "https://nitter.poast.org",
+    "https://nitter.privacydev.net",
+    "https://nitter.moomoo.me",
+    "https://nitter.perennialte.ch"
 ]
 
-if os.path.exists(TXT_FILE):
-    with open(TXT_FILE, "r") as f:
-        SENT_LINKS = set(line.strip() for line in f if line.strip())
-else:
-    with open(TXT_FILE, "w") as f:
-        f.write("")
-    SENT_LINKS = set()
+bot = Bot(token=TELEGRAM_BOT_TOKEN)
+ai_client = genai.Client(api_key=GEMINI_API_KEY)
 
-def save_link(link):
-    with open(TXT_FILE, "a") as f:
-        f.write(f"{link}\n")
-    SENT_LINKS.add(link)
+def load_sent_tweets():
+    if not os.path.exists(DB_FILE):
+        return set()
+    with open(DB_FILE, 'r', encoding='utf-8') as f:
+        return set(line.strip() for line in f if line.strip())
+
+def save_sent_tweet(link):
+    with open(DB_FILE, 'a', encoding='utf-8') as f:
+        f.write(link + '\n')
+
+async def analyze_with_gemini(tweet_text, account):
+    prompt = f"""
+    You are an expert crypto fundamental analyst. Analyze this tweet from the official project account @{account}:
+    "{tweet_text}"
+    
+    Determine if this tweet contains highly important fundamental news that could affect the project or token value.
+    
+    CRITERIA TO EVALUATE:
+    1. Direct effect on price (Yes/No with brief reason)
+    2. Technical update/Mainnet/V2/V3/Protocol changes (Yes/No)
+    3. New Partnership/Integration (Yes/No)
+    4. Burn or Buyback mechanism mentioned (Yes/No)
+    5. Importance Score: Give a score from 1 to 10 based on fundamental impact.
+    
+    If the Importance Score is less than 4, reply ONLY with the word "IGNORE".
+    
+    If the score is 4 or higher, provide a Persian (Farsi) response formatted EXACTLY like this (use HTML tags for bolding if needed):
+    
+    📊 **تحلیل هوشمند جمنای**
+    🔹 **اثر مستقیم بر قیمت:** [بله/خیر همراه توضیح خیلی کوتاه]
+    🔹 **آپدیت فنی:** [بله/خیر]
+    🔹 **همکاری جدید:** [بله/خیر]
+    🔹 **توکن‌سوزی یا بای‌بک:** [بله/خیر]
+    ⭐️ **نمره اهمیت:** [امتیاز از ۱ تا ۱۰]
+    
+    📝 **ترجمه خلاصه توییت:**
+    [ترجمه روان، کوتاه و دقیق متن توییت به فارسی]
+    """
+    try:
+        loop = asyncio.get_running_loop()
+        response = await loop.run_in_executor(
+            None, 
+            lambda: ai_client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+            )
+        )
+        return response.text.strip()
+    except Exception as e:
+        print(f"Gemini API Error for @{account}: {e}")
+        return "IGNORE"
+
+async def fetch_rss_with_retry(account):
+    """تلاش برای دانلود فید با سرورهای مختلف Nitter در صورت خرابی"""
+    # مخلوط کردن سرورها تا درخواست‌ها پخش بشن
+    instances = NITTER_INSTANCES.copy()
+    random.shuffle(instances)
+    
+    for instance in instances:
+        try:
+            nitter_url = f"{instance}/{account}/rss"
+            req = urllib.request.Request(nitter_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            
+            loop = asyncio.get_running_loop()
+            response_data = await loop.run_in_executor(None, lambda: urllib.request.urlopen(req, timeout=10).read())
+            return response_data, instance
+        except Exception:
+            continue # اگر این سرور خراب بود، برو سراغ بعدی
+            
+    raise Exception("All Nitter instances failed.")
+
+async def check_single_account(account, sent_tweets, today_date):
+    try:
+        response_data, used_instance = await fetch_rss_with_retry(account)
+        
+        root = ET.fromstring(response_data)
+        items = root.findall('.//item')[:3]
+        
+        if not items:
+            return
+
+        for item in items:
+            title = item.find('title').text if item.find('title') is not None else ""
+            tweet_link = item.find('link').text if item.find('link') is not None else ""
+            pub_date_text = item.find('pubDate').text if item.find('pubDate') is not None else ""
+            
+            # پاک‌سازی لینک نیتراسکات و تبدیل به لینک اصلی X
+            clean_link = tweet_link
+            for inst in NITTER_INSTANCES:
+                domain = inst.replace("https://", "")
+                if domain in clean_link:
+                    clean_link = clean_link.replace(domain, "x.com")
+                    break
+            if "x.com" not in clean_link:
+                # تبدیل‌های متفرقه احتمالی
+                clean_link = f"https://x.com/{account}/status/" + tweet_link.split('/status/')[-1] if '/status/' in tweet_link else tweet_link
+
+            if pub_date_text:
+                try:
+                    tweet_datetime = parsedate_to_datetime(pub_date_text)
+                    if tweet_datetime.date() != today_date:
+                        continue
+                except Exception:
+                    pass
+            
+            if clean_link in sent_tweets:
+                continue
+            
+            tweet_text = title
+            if not tweet_text:
+                continue
+                
+            analysis_result = await analyze_with_gemini(tweet_text, account)
+            
+            if "IGNORE" in analysis_result or len(analysis_result) < 10:
+                save_sent_tweet(clean_link)
+                sent_tweets.add(clean_link)
+                continue
+            
+            safe_original_text = html.escape(tweet_text)
+            
+            final_message = (
+                f"🤖 **[نسخه AI] توییت جدید از: @{account}**\n\n"
+                f"{analysis_result}\n\n"
+                f"🇬🇧 **متن انگلیسی:**\n`{safe_original_text}`\n\n"
+                f"🔗 <a href='{clean_link}'>لینک توییت در X</a>"
+            )
+            
+            try:
+                await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
+                print(f"[+] AI Report sent for @{account} successfully!")
+                
+                save_sent_tweet(clean_link)
+                sent_tweets.add(clean_link)
+                
+            except Exception as tg_err:
+                print(f"Error sending Telegram for @{account}: {tg_err}")
+                    
+    except Exception as e:
+        print(f"Error checking @{account}: {e}")
 
 async def main_pipeline():
-    print("Checking crypto insights via Dynamic Google Wire (100% Anti-Block)...")
-    bot = Bot(token=TELEGRAM_BOT_TOKEN)
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Checking Twitter accounts via Smart Multi-Nitter & Gemini...")
+    sent_tweets = load_sent_tweets()
+    today_date = datetime.now(timezone.utc).date()
     
-    # استفاده از فید جهانی اخبار کریپتو گوگل که همیشه فعال است و هرگز بلاک نمی‌شود
-    encoded_query = urllib.parse.quote("crypto OR bitcoin OR altcoin")
-    rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-
-    async with bot:
-        try:
-            req = urllib.request.Request(rss_url, headers=headers)
-            with urllib.request.urlopen(req, timeout=15) as response:
-                xml_data = response.read()
-            
-            root = ET.fromstring(xml_data)
-            items = root.findall('.//item')[:40] # بررسی ۴۰ خبر زنده و داغ بازار
-            
-            for item in items:
-                link = item.find('link').text if item.find('link') is not None else ""
-                
-                if not link or link in SENT_LINKS:
-                    continue
-                
-                title = item.find('title').text if item.find('title') is not None else ""
-                
-                # ۱. بررسی اینکه آیا خبر به پروژه‌های شما ربط دارد؟
-                is_relevant_project = any(project.lower() in title.lower() for project in PROJECTS)
-                
-                if is_relevant_project:
-                    # ۲. بررسی کلمات کلیدی بنیادی
-                    contains_keyword = any(keyword.lower() in title.lower() for keyword in KEYWORDS)
-                    
-                    if contains_keyword:
-                        # تمیز کردن عنوان از نام خبرگزاری‌ها که گوگل ته تایتل می‌زند (مثلا - Coindesk)
-                        clean_title = title.split(' - ')[0] if ' - ' in title else title
-                        safe_title = html.escape(clean_title)
-                        
-                        final_message = (
-                            f"🔔 <b>رویداد بنیادی جدید در بازار</b>\n\n"
-                            f"📝 <b>عنوان خبر:</b>\n{safe_title}\n\n"
-                            f"🔗 <a href='{link}'>مشاهده کامل خبر</a>"
-                        )
-                        
-                        try:
-                            await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=final_message, parse_mode="HTML")
-                            print(f"✅ Alert sent: {clean_title[:30]}...")
-                            save_link(link)
-                        except Exception as tg_err:
-                            print(f"❌ Telegram Error: {tg_err}")
-                            
-        except Exception as e:
-            print(f"⚠️ Error checking Google Wire: {e}")
+    tasks = [check_single_account(account, sent_tweets, today_date) for account in TWITTER_ACCOUNTS]
+    await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
     asyncio.run(main_pipeline())
