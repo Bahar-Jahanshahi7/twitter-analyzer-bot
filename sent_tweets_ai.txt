@@ -103,3 +103,17 @@ http://x.com/RelayProtocol/status/2071583103412298232#m
 http://x.com/CronosApp/status/2071579764025115108#m
 http://x.com/mellowprotocol/status/2071595354919698834#m
 http://x.com/LidoFinance/status/2071613492956655721#m
+http://x.com/CantonNetwork/status/2071633290751095018#m
+http://x.com/USDai_Official/status/2071639863817048553#m
+http://x.com/hedera/status/2071649363630207079#m
+http://x.com/tokenterminal/status/2071601350014599171#m
+http://x.com/0xfluid/status/2071649634708267452#m
+http://x.com/AlgoFoundation/status/2071647407600013680#m
+http://x.com/hedera/status/2071649361084182728#m
+http://x.com/Flowmark_xyz/status/2071611697656418725#m
+http://x.com/0xfluid/status/2071649618736382156#m
+http://x.com/AlgoFoundation/status/2071647394132074857#m
+http://x.com/hedera/status/2071649359385501807#m
+http://x.com/AttentionToken/status/2071654520375877895#m
+http://x.com/Aster_DEX/status/2071658763485073552#m
+http://x.com/SuiNetwork/status/2071654431737962801#m
