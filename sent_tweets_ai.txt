@@ -146,3 +146,8 @@ http://x.com/NEARProtocol/status/2071709102091251767#m
 http://x.com/CantonNetwork/status/2071731437620068500#m
 http://x.com/rendernetwork/status/2071739229864952126#m
 http://x.com/rendernetwork/status/2071739227692233156#m
+http://x.com/BNBCHAIN/status/2071805974340349953#m
+http://x.com/PendleIntern/status/2071784563584712831#m
+http://x.com/SuiNetwork/status/2071746605099983204#m
+http://x.com/BNBChainDevs/status/2071745569614184844#m
+http://x.com/CantonNetwork/status/2071753331693752651#m
