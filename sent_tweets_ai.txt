@@ -250,3 +250,10 @@ http://x.com/NEARProtocol/status/2072074563094032684#m
 http://x.com/NEARProtocol/status/2072074560963297682#m
 http://x.com/svrn_ai/status/2072046331594420246#m
 http://x.com/CantonNetwork/status/2072073692394492242#m
+http://x.com/jup_lend/status/2072099795821580652#m
+http://x.com/JupiterExchange/status/2072084518282957239#m
+http://x.com/SonicLabs/status/2072086697463198183#m
+http://x.com/SonicLabs/status/2072086696049656185#m
+http://x.com/SonicLabs/status/2072086694619472382#m
+http://x.com/CantonNetwork/status/2072093825485430863#m
+http://x.com/CantonNetwork/status/2072087262007824692#m
