@@ -349,3 +349,12 @@ http://x.com/injective/status/2072410104108826917#m
 http://x.com/hedera/status/2072379842243297328#m
 http://x.com/Morpho/status/2072395963793350687#m
 http://x.com/injective/status/2072380782010847395#m
+http://x.com/SuiNetwork/status/2072439856203280886#m
+http://x.com/AlgoFoundation/status/2072412886002229694#m
+http://x.com/CantonNetwork/status/2072436080381464779#m
+http://x.com/MerlinEgalite/status/2072397054056264092#m
+http://x.com/PudgyCanada/status/2072339175886430365#m
+http://x.com/PaulFrambot/status/2072411745021235491#m
+http://x.com/NEARProtocol/status/2072415786468008083#m
+http://x.com/NEARProtocol/status/2072415785117532458#m
+http://x.com/NEARProtocol/status/2072415783330689460#m
