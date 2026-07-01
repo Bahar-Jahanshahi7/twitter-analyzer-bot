@@ -307,3 +307,17 @@ http://x.com/circle/status/2072326863817740448#m
 http://x.com/NEARProtocol/status/2072335399964303822#m
 http://x.com/NEARProtocol/status/2072335398328521177#m
 http://x.com/NEARProtocol/status/2072335396084613370#m
+http://x.com/injective/status/2072364774801686536#m
+http://x.com/NEARProtocol/status/2072365539637301396#m
+http://x.com/JupiterExchange/status/2072371387642364053#m
+http://x.com/Nexo/status/2072351310700011810#m
+http://x.com/AerodromeFi/status/2072340883954143391#m
+http://x.com/CantonNetwork/status/2072358066243404090#m
+http://x.com/MatrixAINetwork/status/2072364951377936697#m
+http://x.com/JupiterExchange/status/2072371385415118974#m
+http://x.com/Nexo/status/2072340624486101015#m
+http://x.com/JupDevRel/status/2072309733353300047#m
+http://x.com/McLarenF1/status/2072243885615546404#m
+http://x.com/pudgypenguins/status/2072369206465527950#m
+http://x.com/heysealai/status/2072343031890497954#m
+http://x.com/circle/status/2072351828390613489#m
