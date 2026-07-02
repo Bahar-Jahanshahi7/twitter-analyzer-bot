@@ -375,3 +375,12 @@ http://x.com/CantonNetwork/status/2072478358999638526#m
 http://x.com/BNBCHAIN/status/2072560917511127433#m
 http://x.com/injective/status/2072534834224738517#m
 http://x.com/Stable/status/2072537121257390517#m
+http://x.com/Nexo/status/2072609419318243442#m
+http://x.com/JupiterExchange/status/2072589958355763297#m
+http://x.com/Nexo/status/2072609417585906156#m
+http://x.com/Nexo/status/2072609415216152781#m
+http://x.com/circle/status/2072591108102586595#m
+http://x.com/hedera/status/2072609976292671782#m
+http://x.com/BNBCHAIN/status/2072621346824011966#m
+http://x.com/BNBCHAIN/status/2072591137559478328#m
+http://x.com/BNBCHAIN/status/2072591125018476764#m
