@@ -362,3 +362,13 @@ http://x.com/CantonNetwork/status/2072456213208486015#m
 http://x.com/AttentionToken/status/2072453059536417143#m
 http://x.com/Ledger/status/2072423665569030282#m
 http://x.com/rendernetwork/status/2072447950215618878#m
+http://x.com/NEARProtocol/status/2072495510166925703#m
+http://x.com/pendle_fi/status/2072532514330292324#m
+http://x.com/pendle_fi/status/2072532510433759556#m
+http://x.com/BNBCHAIN/status/2072530729561706989#m
+http://x.com/pendle_fi/status/2072526950464381160#m
+http://x.com/BNBCHAIN/status/2072530716802625759#m
+http://x.com/BNBCHAIN/status/2072470345244618909#m
+http://x.com/injective/status/2072484092294164575#m
+http://x.com/injective/status/2072484090998034615#m
+http://x.com/CantonNetwork/status/2072478358999638526#m
