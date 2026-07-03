@@ -480,3 +480,4 @@ http://x.com/rendernetwork/status/2072810538921304525#m
 http://x.com/injective/status/2072810074230100417#m
 http://x.com/CantonNetwork/status/2072798468180209954#m
 http://x.com/y2kappa/status/2072798130215817373#m
+http://x.com/BNBCHAIN/status/2072832728261620205#m
