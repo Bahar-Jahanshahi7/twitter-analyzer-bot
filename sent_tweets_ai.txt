@@ -485,3 +485,7 @@ http://x.com/injective/status/2072872903503470694#m
 http://x.com/CantonNetwork/status/2072840495315693915#m
 http://x.com/UTechStables/status/2072876090188796160#m
 http://x.com/PendleIntern/status/2072879618542260378#m
+http://x.com/BNBCHAIN/status/2072931376916009076#m
+http://x.com/pendle_fi/status/2072937427598274793#m
+http://x.com/pendle_fi/status/2072937412515525000#m
+http://x.com/pendle_fi/status/2072937396585603353#m
