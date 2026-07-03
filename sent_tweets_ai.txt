@@ -551,3 +551,8 @@ http://x.com/injective/status/2073130932974858616#m
 http://x.com/injective/status/2073130931674595620#m
 http://x.com/BNBCHAIN/status/2073149813172916712#m
 http://x.com/CantonNetwork/status/2073132921964097863#m
+http://x.com/PudgyCanada/status/2073140348524830834#m
+http://x.com/SuiNetwork/status/2073165473269883237#m
+http://x.com/SuiNetwork/status/2073165461152583997#m
+http://x.com/SuiNetwork/status/2073165449165189472#m
+http://x.com/CantonNetwork/status/2073160856058405308#m
