@@ -589,3 +589,7 @@ http://x.com/CantonNetwork/status/2073450262988198070#m
 http://x.com/AlgoFoundation/status/2073466884486520962#m
 http://x.com/SuiNetwork/status/2073445616949317751#m
 http://x.com/SuiNetwork/status/2073445474678542787#m
+http://x.com/SonicLabs/status/2073477266089361890#m
+http://x.com/PaulFrambot/status/2073473968728682663#m
+http://x.com/KASTxyz/status/2073410613846368495#m
+http://x.com/CantonNetwork/status/2073487760262922586#m
