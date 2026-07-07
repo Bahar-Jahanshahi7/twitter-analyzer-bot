@@ -770,3 +770,7 @@ http://x.com/HederaCommunity/status/2074554051446898848#m
 http://x.com/CantonNetwork/status/2074610407486947465#m
 http://x.com/SonicLabs/status/2074599990664794612#m
 http://x.com/BNBCHAIN/status/2074599397942259853#m
+http://x.com/basedPavel/status/2074407653468516844#m
+http://x.com/SuiNetwork/status/2074630370172301708#m
+http://x.com/jup_mobile/status/2074523837568315411#m
+http://x.com/CantonNetwork/status/2074630540607549836#m
