@@ -767,3 +767,6 @@ http://x.com/NEARProtocol/status/2074582972204711969#m
 http://x.com/near_intents/status/2074516452015796444#m
 http://x.com/ilblackdragon/status/2074517055953383821#m
 http://x.com/HederaCommunity/status/2074554051446898848#m
+http://x.com/CantonNetwork/status/2074610407486947465#m
+http://x.com/SonicLabs/status/2074599990664794612#m
+http://x.com/BNBCHAIN/status/2074599397942259853#m
