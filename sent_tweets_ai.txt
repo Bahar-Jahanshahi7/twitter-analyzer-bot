@@ -691,3 +691,5 @@ http://x.com/CantonNetwork/status/2074268152637296770#m
 http://x.com/injective/status/2074263048488153250#m
 http://x.com/rendernetwork/status/2074255821794414740#m
 http://x.com/SuiNetwork/status/2074252550581473627#m
+http://x.com/CantonNetwork/status/2074290046648103172#m
+http://x.com/BNBCHAIN/status/2074282299479265775#m
