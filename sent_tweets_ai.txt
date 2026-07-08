@@ -779,3 +779,4 @@ http://x.com/BNBCHAIN/status/2074644689613992305#m
 http://x.com/CantonNetwork/status/2074652686230913359#m
 http://x.com/CantonNetwork/status/2074713587579314421#m
 http://x.com/BNBCHAIN/status/2074688036403576926#m
+http://x.com/hedera/status/2074754179097043185#m
