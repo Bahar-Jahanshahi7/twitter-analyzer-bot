@@ -774,3 +774,6 @@ http://x.com/basedPavel/status/2074407653468516844#m
 http://x.com/SuiNetwork/status/2074630370172301708#m
 http://x.com/jup_mobile/status/2074523837568315411#m
 http://x.com/CantonNetwork/status/2074630540607549836#m
+http://x.com/NEARProtocol/status/2074649740327735690#m
+http://x.com/BNBCHAIN/status/2074644689613992305#m
+http://x.com/CantonNetwork/status/2074652686230913359#m
