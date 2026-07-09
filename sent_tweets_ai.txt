@@ -882,3 +882,9 @@ http://x.com/base/status/2074978236820521370#m
 http://x.com/SuiNetwork/status/2074976328215134705#m
 http://x.com/CantonNetwork/status/2074992928301408419#m
 http://x.com/circle/status/2074976828809474196#m
+http://x.com/injective/status/2075009077097398296#m
+http://x.com/BNBCHAIN/status/2075007074719998260#m
+http://x.com/NEARProtocol/status/2075019873478963215#m
+http://x.com/BNBCHAIN/status/2075007062426489034#m
+http://x.com/BNBCHAIN/status/2075007050321678666#m
+http://x.com/CantonNetwork/status/2075014822425477262#m
