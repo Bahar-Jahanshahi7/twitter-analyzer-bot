@@ -1092,3 +1092,11 @@ http://x.com/CantonNetwork/status/2075697319543263391#m
 http://x.com/jup_mobile/status/2075702992792125792#m
 http://x.com/BNBCHAIN/status/2075702322441949485#m
 http://x.com/BNBCHAIN/status/2075731861351858410#m
+http://x.com/Aster_DEX/status/2075770836783698315#m
+http://x.com/injective/status/2075735578591609020#m
+http://x.com/NEARProtocol/status/2075740435339767999#m
+http://x.com/NEARProtocol/status/2075740433016029398#m
+http://x.com/BNBCHAIN/status/2075777142269542610#m
+http://x.com/BNBCHAIN/status/2075777129871294655#m
+http://x.com/CantonNetwork/status/2075739598039166997#m
+http://x.com/Aster_DEX/status/2075770824393691592#m
