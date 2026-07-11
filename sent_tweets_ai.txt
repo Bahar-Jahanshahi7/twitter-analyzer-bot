@@ -1132,3 +1132,5 @@ http://x.com/CantonNetwork/status/2075986978005270660#m
 http://x.com/AlgoFoundation/status/2075984720517857645#m
 http://x.com/pendle_fi/status/2075807009484714030#m
 http://x.com/hedera/status/2075986869569884353#m
+http://x.com/SHL_eth/status/2075931103748403320#m
+http://x.com/SonicLabs/status/2075999663875125311#m
