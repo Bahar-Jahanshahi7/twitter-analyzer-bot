@@ -1123,3 +1123,8 @@ http://x.com/AerodromeFi/status/2075949557335339265#m
 http://x.com/AerodromeFi/status/2075949545259987335#m
 http://x.com/jup_spot/status/2075847661316419949#m
 http://x.com/CantonNetwork/status/2075942434857488702#m
+http://x.com/BNBCHAIN/status/2075973441191059810#m
+http://x.com/SuiNetwork/status/2075972447246168374#m
+http://x.com/NEARProtocol/status/2075968350992081048#m
+http://x.com/NEARProtocol/status/2075968348907569356#m
+http://x.com/NEARProtocol/status/2075968346877559026#m
