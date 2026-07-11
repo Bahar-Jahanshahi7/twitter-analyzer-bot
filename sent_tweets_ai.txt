@@ -1128,3 +1128,7 @@ http://x.com/SuiNetwork/status/2075972447246168374#m
 http://x.com/NEARProtocol/status/2075968350992081048#m
 http://x.com/NEARProtocol/status/2075968348907569356#m
 http://x.com/NEARProtocol/status/2075968346877559026#m
+http://x.com/CantonNetwork/status/2075986978005270660#m
+http://x.com/AlgoFoundation/status/2075984720517857645#m
+http://x.com/pendle_fi/status/2075807009484714030#m
+http://x.com/hedera/status/2075986869569884353#m
