@@ -1151,3 +1151,7 @@ http://x.com/Nexo/status/2076275389153116476#m
 http://x.com/Aster_DEX/status/2076276128592105495#m
 http://x.com/Berko_Crypto/status/2076243298654757166#m
 http://x.com/MatrixAINetwork/status/2076299244332523926#m
+http://x.com/SonicLabs/status/2076323637121228833#m
+http://x.com/CantonNetwork/status/2076315392088383689#m
+http://x.com/pudgypenguins/status/2076314402379252203#m
+http://x.com/NEARProtocol/status/2076315215558312172#m
