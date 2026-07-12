@@ -1146,3 +1146,6 @@ http://x.com/BNBCHAIN/status/2076094196029730988#m
 http://x.com/BNBCHAIN/status/2076154618371871028#m
 http://x.com/BNBCHAIN/status/2076222556634255378#m
 http://x.com/Nexo/status/2076251475592790046#m
+http://x.com/BNBCHAIN/status/2076275411147715066#m
+http://x.com/Nexo/status/2076275389153116476#m
+http://x.com/Aster_DEX/status/2076276128592105495#m
