@@ -1249,3 +1249,4 @@ http://x.com/NEARProtocol/status/2076791546666791223#m
 http://x.com/JupiterExchange/status/2076782583241683288#m
 http://x.com/JupiterExchange/status/2076782222812561727#m
 http://x.com/rendernetwork/status/2076786976749990145#m
+http://x.com/CantonNetwork/status/2076804615991914757#m
