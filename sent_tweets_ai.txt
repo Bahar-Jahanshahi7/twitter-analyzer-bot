@@ -1282,3 +1282,15 @@ http://x.com/xStocksFi/status/2076967510885147079#m
 http://x.com/LidoFinance/status/2077005396061880783#m
 http://x.com/Nexo/status/2077008829645046112#m
 http://x.com/Nexo/status/2077008825731678688#m
+http://x.com/ethereumfndn/status/2077037474568659017#m
+http://x.com/CantonNetwork/status/2077040923125465290#m
+http://x.com/hedera/status/2077022879812645245#m
+http://x.com/circle/status/2077039659352469911#m
+http://x.com/Nexo/status/2077014878376653246#m
+http://x.com/AerodromeFi/status/2077038163198161310#m
+http://x.com/eth_systems/status/2077000602320805918#m
+http://x.com/CantonNetwork/status/2077019531831316724#m
+http://x.com/NEARProtocol/status/2077018140676956312#m
+http://x.com/NEARProtocol/status/2077018138986578269#m
+http://x.com/kamino/status/2077036775088750975#m
+http://x.com/krakenfx/status/2077037643339030760#m
