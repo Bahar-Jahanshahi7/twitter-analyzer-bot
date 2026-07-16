@@ -1468,3 +1468,9 @@ http://x.com/circle/status/2077513823385477474#m
 http://x.com/SuiNetwork/status/2077514550346481890#m
 http://x.com/taxninja/status/2077421585078595645#m
 http://x.com/CantonNetwork/status/2077529391652090354#m
+http://x.com/BNBCHAIN/status/2077543778890502195#m
+http://x.com/CantonNetwork/status/2077551537333936309#m
+http://x.com/injective/status/2077573988264329681#m
+http://x.com/NEARProtocol/status/2077545164160037082#m
+http://x.com/pendle_fi/status/2077543791796564254#m
+http://x.com/pendle_fi/status/2077543776277680624#m
