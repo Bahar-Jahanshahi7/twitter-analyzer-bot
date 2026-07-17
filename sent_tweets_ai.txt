@@ -1652,3 +1652,10 @@ http://x.com/AerodromeFi/status/2078208130899694079#m
 http://x.com/ETHGlobal/status/2078174191652892673#m
 http://x.com/Nexo/status/2078226540026851764#m
 http://x.com/RepHageman/status/2078215656135409685#m
+http://x.com/pendle_fi/status/2078054560669839703#m
+http://x.com/CantonNetwork/status/2078234286046806261#m
+http://x.com/Nexo/status/2078236140738428978#m
+http://x.com/NEARProtocol/status/2078233750853345456#m
+http://x.com/rendernetwork/status/2078229281465876974#m
+http://x.com/rendernetwork/status/2078229279666532736#m
+http://x.com/rendernetwork/status/2078229277670048051#m
