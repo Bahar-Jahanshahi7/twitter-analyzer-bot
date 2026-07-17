@@ -1564,3 +1564,4 @@ http://x.com/SuiNetwork/status/2077876710125846684#m
 http://x.com/CantonNetwork/status/2077871646594236689#m
 http://x.com/CantonNetwork/status/2077843712529617327#m
 http://x.com/rendernetwork/status/2077848665377390605#m
+http://x.com/BNBCHAIN/status/2077906178198184045#m
