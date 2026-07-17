@@ -1569,3 +1569,7 @@ http://x.com/CantonNetwork/status/2077914176857489743#m
 http://x.com/injective/status/2077915279149892006#m
 http://x.com/pendle_fi/status/2077920032764604712#m
 http://x.com/pendle_fi/status/2077920030055153929#m
+http://x.com/pendle_fi/status/2077988664035209299#m
+http://x.com/pendle_fi/status/2077988649564881274#m
+http://x.com/BNBCHAIN/status/2077970209562845322#m
+http://x.com/jup_mobile/status/2077966526213444001#m
