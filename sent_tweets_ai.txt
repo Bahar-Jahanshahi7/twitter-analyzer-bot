@@ -1663,3 +1663,7 @@ http://x.com/CantonNetwork/status/2078254419028951326#m
 http://x.com/kaminointern/status/2078255456015765783#m
 http://x.com/injective/status/2078251105956331559#m
 http://x.com/circle/status/2078259283595329926#m
+http://x.com/BNBCHAIN/status/2078268564570563068#m
+http://x.com/MatrixAINetwork/status/2078269441951883600#m
+http://x.com/MatrixAINetwork/status/2078269122287194145#m
+http://x.com/CantonNetwork/status/2078276313110983039#m
