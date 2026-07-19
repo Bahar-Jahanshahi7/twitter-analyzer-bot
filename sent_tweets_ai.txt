@@ -1717,3 +1717,6 @@ http://x.com/Nexo/status/2078770330110251334#m
 http://x.com/BNBCHAIN/status/2078812132678815953#m
 http://x.com/AlgoFoundation/status/2078842376169439443#m
 http://x.com/NEARProtocol/status/2078831917605011720#m
+http://x.com/CantonNetwork/status/2078850094237929615#m
+http://x.com/JupiterExchange/status/2078864904748966274#m
+http://x.com/injective/status/2078853772768383389#m
