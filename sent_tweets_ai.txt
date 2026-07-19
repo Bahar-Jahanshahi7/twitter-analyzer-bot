@@ -1720,3 +1720,6 @@ http://x.com/NEARProtocol/status/2078831917605011720#m
 http://x.com/CantonNetwork/status/2078850094237929615#m
 http://x.com/JupiterExchange/status/2078864904748966274#m
 http://x.com/injective/status/2078853772768383389#m
+http://x.com/BNBCHAIN/status/2078872577116635603#m
+http://x.com/rendernetwork/status/2078872495906828423#m
+http://x.com/Nexo/status/2078870328718065934#m
