@@ -1821,3 +1821,5 @@ http://x.com/CantonNetwork/status/2079321198069223638#m
 http://x.com/SonicLabs/status/2079317567769137634#m
 http://x.com/SuiNetwork/status/2079324512081059995#m
 http://x.com/SuiNetwork/status/2079324500043427920#m
+http://x.com/CantonNetwork/status/2079341330954846556#m
+http://x.com/injective/status/2079341783524266448#m
