@@ -1816,3 +1816,8 @@ http://x.com/NEARProtocol/status/2079291345353548003#m
 http://x.com/CantonNetwork/status/2079293263945609332#m
 http://x.com/DromosLabs/status/2079299184268894361#m
 http://x.com/circle/status/2079291178835673361#m
+http://x.com/CantonNetwork/status/2079321966209638682#m
+http://x.com/CantonNetwork/status/2079321198069223638#m
+http://x.com/SonicLabs/status/2079317567769137634#m
+http://x.com/SuiNetwork/status/2079324512081059995#m
+http://x.com/SuiNetwork/status/2079324500043427920#m
