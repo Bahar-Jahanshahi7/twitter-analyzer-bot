@@ -1823,3 +1823,7 @@ http://x.com/SuiNetwork/status/2079324512081059995#m
 http://x.com/SuiNetwork/status/2079324500043427920#m
 http://x.com/CantonNetwork/status/2079341330954846556#m
 http://x.com/injective/status/2079341783524266448#m
+http://x.com/BNBChainDevs/status/2079400162351300854#m
+http://x.com/CantonNetwork/status/2079364231737102698#m
+http://x.com/BNBCHAIN/status/2079378335361036440#m
+http://x.com/BNBCHAIN/status/2079355709100089815#m
