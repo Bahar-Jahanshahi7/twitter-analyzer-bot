@@ -1922,3 +1922,10 @@ http://x.com/NEARProtocol/status/2079659258438680694#m
 http://x.com/NEARProtocol/status/2079659256920355083#m
 http://x.com/afiqpengu/status/2079583886376571314#m
 http://x.com/Lighter_xyz/status/2079678876003811393#m
+http://x.com/injective/status/2079702305381765547#m
+http://x.com/SonicLabs/status/2079689991975059534#m
+http://x.com/SuiNetwork/status/2079644603838541912#m
+http://x.com/SuiNetwork/status/2079644591234638316#m
+http://x.com/CantonNetwork/status/2079703718950244420#m
+http://x.com/CantonNetwork/status/2079683586010259902#m
+http://x.com/rendernetwork/status/2079683838100275235#m
