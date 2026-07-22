@@ -1933,3 +1933,8 @@ http://x.com/rendernetwork/status/2079725614077026489#m
 http://x.com/MatrixAINetwork/status/2079720459982242023#m
 http://x.com/CantonNetwork/status/2079725864606990532#m
 http://x.com/CantonNetwork/status/2079723035112648926#m
+http://x.com/BNBCHAIN/status/2079778535279833367#m
+http://x.com/injective/status/2079784492450127928#m
+http://x.com/injective/status/2079753023698415809#m
+http://x.com/pendle_fi/status/2079745411552800852#m
+http://x.com/pendle_fi/status/2079745397019529262#m
