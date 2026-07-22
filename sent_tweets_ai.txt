@@ -1942,3 +1942,8 @@ http://x.com/injective/status/2079820003608506742#m
 http://x.com/PancakeSwap/status/2079808663431397662#m
 http://x.com/Aster_DEX/status/2079788777921527928#m
 http://x.com/BNBCHAIN/status/2079819242615267434#m
+http://x.com/Nexo/status/2079854155019977170#m
+http://x.com/AiCapitalMarket/status/2079838168288010384#m
+http://x.com/kashdhanda/status/2079841912115318814#m
+http://x.com/Aster_DEX/status/2079862179424276915#m
+http://x.com/native_fi/status/2079856738652840208#m
