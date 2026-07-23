@@ -2042,3 +2042,14 @@ http://x.com/Gemini/status/2079951256903176450#m
 http://x.com/PenguAsia/status/2079935115564925253#m
 http://x.com/SonicLabs/status/2080048182051188950#m
 http://x.com/BNBCHAIN/status/2080080499029221780#m
+http://x.com/NEARProtocol/status/2080089101588374007#m
+http://x.com/CantonNetwork/status/2080088755893854450#m
+http://x.com/jerallaire/status/2080109540071080120#m
+http://x.com/pendle_fi/status/2080139862666264950#m
+http://x.com/NEARProtocol/status/2080088029440401659#m
+http://x.com/jerallaire/status/2080109712968671505#m
+http://x.com/pendle_fi/status/2080139848057532745#m
+http://x.com/OndoFoundation/status/2080110711062024427#m
+http://x.com/circle/status/2080099309656375586#m
+http://x.com/OndoFoundation/status/2080110707388150043#m
+http://x.com/pendle_fi/status/2080095797375533314#m
