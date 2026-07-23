@@ -2069,3 +2069,7 @@ http://x.com/dfinity/status/2080201356347146261#m
 http://x.com/BNBChainDevs/status/2080140896914317448#m
 http://x.com/OndoPerps/status/2080110863436894431#m
 http://x.com/Stable/status/2080222789185962377#m
+http://x.com/JupiterExchange/status/2080230313809088779#m
+http://x.com/0xfluid/status/2080232974336098753#m
+http://x.com/0xfluid/status/2080232962336133336#m
+http://x.com/PaulFrambot/status/2080230677941739733#m
