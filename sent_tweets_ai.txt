@@ -2163,3 +2163,10 @@ http://x.com/dfinity/status/2080594838215381064#m
 http://x.com/AiCapitalMarket/status/2080540494539719014#m
 http://x.com/dfinity/status/2080594835837259836#m
 http://x.com/LidoFinance/status/2080593268228657479#m
+http://x.com/NEARProtocol/status/2080615540054212628#m
+http://x.com/SafeLabs_/status/2080638644457754832#m
+http://x.com/NEARProtocol/status/2080614296426274870#m
+http://x.com/pendle_fi/status/2080639749614948475#m
+http://x.com/injective/status/2080623357007970399#m
+http://x.com/worldnetwork/status/2080636123701715129#m
+http://x.com/BNBCHAIN/status/2080635434594648570#m
