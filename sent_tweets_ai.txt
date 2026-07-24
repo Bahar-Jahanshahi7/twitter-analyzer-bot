@@ -2220,3 +2220,9 @@ http://x.com/circle/status/2080730020172235073#m
 http://x.com/AerodromeFi/status/2080745437489934461#m
 http://x.com/AerodromeFi/status/2080745425645261024#m
 http://x.com/DeFi_Dad/status/2080723013356449967#m
+http://x.com/CantonNetwork/status/2080770749569306909#m
+http://x.com/SuiNetwork/status/2080775627733635556#m
+http://x.com/SuiNetwork/status/2080775615914115514#m
+http://x.com/SuiNetwork/status/2080775604111307132#m
+http://x.com/SonicLabs/status/2080776059147194765#m
+http://x.com/SonicLabs/status/2080776047050797346#m
