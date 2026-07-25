@@ -2249,3 +2249,9 @@ http://x.com/AerodromeFi/status/2081020482388955529#m
 http://x.com/AerodromeFi/status/2081020470506426621#m
 http://x.com/pudgypenguins/status/2081021444813635595#m
 http://x.com/Nexo/status/2081032759003197777#m
+http://x.com/BNBCHAIN/status/2081049161059995841#m
+http://x.com/BNBCHAIN/status/2081048978217681117#m
+http://x.com/NEARProtocol/status/2081049448843493653#m
+http://x.com/NEARProtocol/status/2081049447425847752#m
+http://x.com/NEARProtocol/status/2081049445349691508#m
+http://x.com/CantonNetwork/status/2081061163161579691#m
