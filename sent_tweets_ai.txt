@@ -2234,3 +2234,5 @@ http://x.com/CantonNetwork/status/2080791637291409800#m
 http://x.com/injective/status/2080829251247374495#m
 http://x.com/CantonNetwork/status/2080813279929074110#m
 http://x.com/solana/status/2080959042051248607#m
+http://x.com/BNBCHAIN/status/2080986495955943637#m
+http://x.com/injective/status/2080986818850242851#m
