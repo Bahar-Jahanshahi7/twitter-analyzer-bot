@@ -2236,3 +2236,9 @@ http://x.com/CantonNetwork/status/2080813279929074110#m
 http://x.com/solana/status/2080959042051248607#m
 http://x.com/BNBCHAIN/status/2080986495955943637#m
 http://x.com/injective/status/2080986818850242851#m
+http://x.com/Stable/status/2081005021911818326#m
+http://x.com/SuiNetwork/status/2081017648931107321#m
+http://x.com/CantonNetwork/status/2081013599967781199#m
+http://x.com/SuiNetwork/status/2081017636134273362#m
+http://x.com/jyp_nft/status/2080987447522160827#m
+http://x.com/MerlinEgalite/status/2080985671829979336#m
