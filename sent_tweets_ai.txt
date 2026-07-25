@@ -2231,3 +2231,5 @@ http://x.com/rendernetwork/status/2080792254910738564#m
 http://x.com/NEARProtocol/status/2080795385807667481#m
 http://x.com/NEARProtocol/status/2080795383874085079#m
 http://x.com/CantonNetwork/status/2080791637291409800#m
+http://x.com/injective/status/2080829251247374495#m
+http://x.com/CantonNetwork/status/2080813279929074110#m
