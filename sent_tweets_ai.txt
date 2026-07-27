@@ -2383,3 +2383,9 @@ http://x.com/NEARProtocol/status/2081817724242514382#m
 http://x.com/NEARProtocol/status/2081817719163199743#m
 http://x.com/SonicLabs/status/2081837590148444377#m
 http://x.com/SonicLabs/status/2081837588659523782#m
+http://x.com/CantonNetwork/status/2081858164732101048#m
+http://x.com/NEARProtocol/status/2081854907116564780#m
+http://x.com/NEARProtocol/status/2081854905447252475#m
+http://x.com/SuiNetwork/status/2081864323841048672#m
+http://x.com/NEARProtocol/status/2081854902926754145#m
+http://x.com/circle/status/2081847003487855085#m
