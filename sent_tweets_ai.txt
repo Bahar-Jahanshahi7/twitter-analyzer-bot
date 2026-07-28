@@ -2454,3 +2454,10 @@ http://x.com/Morpho/status/2082117621038924272#m
 http://x.com/NEARProtocol/status/2082128241981059141#m
 http://x.com/Nexo/status/2082118892869099699#m
 http://x.com/BNBCHAIN/status/2082123777371238764#m
+http://x.com/AlgoFoundation/status/2082157191109488646#m
+http://x.com/CantonNetwork/status/2082142538828292429#m
+http://x.com/AlgoFoundation/status/2082157179352858901#m
+http://x.com/AlgoFoundation/status/2082157167147458667#m
+http://x.com/krakenlistings/status/2082148415862153657#m
+http://x.com/JupiterExchange/status/2082147825022849257#m
+http://x.com/JupiterExchange/status/2082147738997702779#m
