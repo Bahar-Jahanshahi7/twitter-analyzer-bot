@@ -2403,3 +2403,9 @@ http://x.com/rendernetwork/status/2081892619370803379#m
 http://x.com/Stable/status/2081930032851919185#m
 http://x.com/BNBCHAIN/status/2081892423739818021#m
 http://x.com/pendle_fi/status/2081920690081734691#m
+http://x.com/Aster_DEX/status/2081985432351650094#m
+http://x.com/soon_svm/status/2081951799280312407#m
+http://x.com/soon_svm/status/2081950111639441670#m
+http://x.com/injective/status/2081975507642401054#m
+http://x.com/injective/status/2081944669441646697#m
+http://x.com/BNBCHAIN/status/2081952813500768676#m
