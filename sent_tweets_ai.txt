@@ -2562,3 +2562,9 @@ http://x.com/Figure/status/2082536858488021253#m
 http://x.com/solana/status/2082538395427864944#m
 http://x.com/SuiNetwork/status/2082542212223836516#m
 http://x.com/SuiNetwork/status/2082542199586292002#m
+http://x.com/HederaCommunity/status/2082544436907741659#m
+http://x.com/BNBCHAIN/status/2082556799387877852#m
+http://x.com/kamino/status/2082569678950457632#m
+http://x.com/CantonNetwork/status/2082554754740490717#m
+http://x.com/kamino/status/2082569013943529733#m
+http://x.com/AerodromeFi/status/2082569444153503888#m
