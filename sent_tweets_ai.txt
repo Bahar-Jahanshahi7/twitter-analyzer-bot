@@ -2568,3 +2568,6 @@ http://x.com/kamino/status/2082569678950457632#m
 http://x.com/CantonNetwork/status/2082554754740490717#m
 http://x.com/kamino/status/2082569013943529733#m
 http://x.com/AerodromeFi/status/2082569444153503888#m
+http://x.com/EFDevcon/status/2082407759262195721#m
+http://x.com/CantonNetwork/status/2082582940526235849#m
+http://x.com/NEARProtocol/status/2082574297504141726#m
