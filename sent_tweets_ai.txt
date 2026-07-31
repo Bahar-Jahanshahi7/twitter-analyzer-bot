@@ -2768,3 +2768,5 @@ http://x.com/AttentionToken/status/2083279030480998827#m
 http://x.com/pudgypenguins/status/2083267136563097729#m
 http://x.com/KieranOnBase/status/2083194673435193405#m
 http://x.com/AerodromeFi/status/2083283195144081461#m
+http://x.com/SonicLabs/status/2083295603413627387#m
+http://x.com/injective/status/2083303644754280930#m
