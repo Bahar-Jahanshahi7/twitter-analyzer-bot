@@ -2683,3 +2683,8 @@ http://x.com/NEARProtocol/status/2082952772207485247#m
 http://x.com/rendernetwork/status/2082950432553308423#m
 http://x.com/NEARProtocol/status/2082952766507319679#m
 http://x.com/BNBCHAIN/status/2082979592625676768#m
+http://x.com/injective/status/2083036446080770468#m
+http://x.com/BNBCHAIN/status/2083039985423261793#m
+http://x.com/pendle_fi/status/2083018783061668032#m
+http://x.com/CantonNetwork/status/2082987355502227659#m
+http://x.com/pendle_fi/status/2083018768947806536#m
