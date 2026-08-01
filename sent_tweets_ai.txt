@@ -2779,3 +2779,7 @@ http://x.com/CantonNetwork/status/2083350246781047131#m
 http://x.com/Aster_DEX/status/2083348494891536802#m
 http://x.com/Aster_DEX/status/2083347186562289814#m
 http://x.com/BNBCHAIN/status/2083341995234263151#m
+http://x.com/injective/status/2083396385097839059#m
+http://x.com/pendle_fi/status/2083412707676717371#m
+http://x.com/pendle_fi/status/2083412693218926814#m
+http://x.com/MatrixAINetwork/status/2083406869599846581#m
