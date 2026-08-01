@@ -2775,3 +2775,7 @@ http://x.com/circle/status/2083311744886116440#m
 http://x.com/CantonNetwork/status/2083327849432334769#m
 http://x.com/CantonNetwork/status/2083307716366537007#m
 http://x.com/rendernetwork/status/2083314427680452861#m
+http://x.com/CantonNetwork/status/2083350246781047131#m
+http://x.com/Aster_DEX/status/2083348494891536802#m
+http://x.com/Aster_DEX/status/2083347186562289814#m
+http://x.com/BNBCHAIN/status/2083341995234263151#m
