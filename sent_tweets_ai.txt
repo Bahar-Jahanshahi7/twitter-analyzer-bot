@@ -2788,3 +2788,6 @@ http://x.com/BNBCHAIN/status/2083511007561846949#m
 http://x.com/BNBCHAIN/status/2083495494962003998#m
 http://x.com/Nexo/status/2083548924166406522#m
 http://x.com/injective/status/2083522710940926460#m
+http://x.com/PenguAsia/status/2083527480485556370#m
+http://x.com/CantonNetwork/status/2083549811534676356#m
+http://x.com/NEARProtocol/status/2083549712012005768#m
