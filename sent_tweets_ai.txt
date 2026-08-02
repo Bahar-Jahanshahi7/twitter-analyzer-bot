@@ -2818,3 +2818,6 @@ http://x.com/Aster_DEX/status/2083866921066475626#m
 http://x.com/injective/status/2083907596138733735#m
 http://x.com/CantonNetwork/status/2083925537156915584#m
 http://x.com/MatrixAINetwork/status/2083911200648417484#m
+http://x.com/Nexo/status/2083930822906950000#m
+http://x.com/BNBCHAIN/status/2083945979347120361#m
+http://x.com/AerodromeFi/status/2083929295932506479#m
