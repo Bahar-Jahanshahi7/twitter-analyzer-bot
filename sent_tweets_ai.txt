@@ -2821,3 +2821,7 @@ http://x.com/MatrixAINetwork/status/2083911200648417484#m
 http://x.com/Nexo/status/2083930822906950000#m
 http://x.com/BNBCHAIN/status/2083945979347120361#m
 http://x.com/AerodromeFi/status/2083929295932506479#m
+http://x.com/NEARProtocol/status/2083954884450070762#m
+http://x.com/AlgoFoundation/status/2083966324276080757#m
+http://x.com/AlgoFoundation/status/2083966311751995615#m
+http://x.com/injective/status/2083961288628031837#m
