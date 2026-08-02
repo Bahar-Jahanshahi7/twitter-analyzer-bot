@@ -2809,3 +2809,6 @@ http://x.com/CantonNetwork/status/2083637136893616202#m
 http://x.com/BNBCHAIN/status/2083643987231899733#m
 http://x.com/capitalmarkets/status/2083616985993326958#m
 http://x.com/BNBCHAIN/status/2083704378024726650#m
+http://x.com/injective/status/2083733864317436237#m
+http://x.com/NEARProtocol/status/2083718998345023656#m
+http://x.com/jupiter_earn/status/2083721576311349464#m
