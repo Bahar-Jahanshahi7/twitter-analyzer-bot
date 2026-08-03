@@ -2862,3 +2862,15 @@ http://x.com/Morpho/status/2084277352528552164#m
 http://x.com/Stable/status/2084282698257006735#m
 http://x.com/Stable/status/2084282685510627406#m
 http://x.com/Stable/status/2084278799399788674#m
+http://x.com/CantonNetwork/status/2084316866093121569#m
+http://x.com/injective/status/2084298699887226947#m
+http://x.com/BNBCHAIN/status/2084308823406502307#m
+http://x.com/FireblocksHQ/status/2084307622400852452#m
+http://x.com/hashgraph/status/2084293254464594187#m
+http://x.com/Cardano_CF/status/2084293242330222885#m
+http://x.com/Nexo/status/2084312672712130575#m
+http://x.com/pudgypenguins/status/2084308543562281042#m
+http://x.com/pudgypenguins/status/2084308540982804714#m
+http://x.com/PenguAsia/status/2084278198599405614#m
+http://x.com/NEARProtocol/status/2084295910930964828#m
+http://x.com/MatrixAINetwork/status/2084326791297257472#m
