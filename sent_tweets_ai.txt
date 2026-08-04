@@ -2981,3 +2981,10 @@ http://x.com/NEARProtocol/status/2084712280759980242#m
 http://x.com/NEARProtocol/status/2084712278335672627#m
 http://x.com/NEARProtocol/status/2084712276045545520#m
 http://x.com/AerodromeFi/status/2084740171103371563#m
+http://x.com/CantonNetwork/status/2084757267656986946#m
+http://x.com/SuiNetwork/status/2084762333872894335#m
+http://x.com/rendernetwork/status/2084765336490926116#m
+http://x.com/rendernetwork/status/2084765334473412693#m
+http://x.com/NEARProtocol/status/2084764249864257618#m
+http://x.com/NEARProtocol/status/2084764247259541903#m
+http://x.com/NEARProtocol/status/2084764242733850875#m
