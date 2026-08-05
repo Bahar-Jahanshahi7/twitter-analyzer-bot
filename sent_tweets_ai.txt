@@ -3005,3 +3005,7 @@ http://x.com/AiCapitalMarket/status/2084844714453508285#m
 http://x.com/injective/status/2084852660306620802#m
 http://x.com/BNBCHAIN/status/2084851937648717858#m
 http://x.com/PendleIntern/status/2084845347994804453#m
+http://x.com/SafePal/status/2084917649969140036#m
+http://x.com/jupiter_trade/status/2084901113975959944#m
+http://x.com/Aster_DEX/status/2084907112791146517#m
+http://x.com/MahoneDeFi/status/2084897236979470429#m
