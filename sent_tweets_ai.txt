@@ -3001,3 +3001,7 @@ http://x.com/CantonNetwork/status/2084799546572276208#m
 http://x.com/BNBCHAIN/status/2084791515382251568#m
 http://x.com/pendle_fi/status/2084822003778032070#m
 http://x.com/CantonNetwork/status/2084799282247278674#m
+http://x.com/AiCapitalMarket/status/2084844714453508285#m
+http://x.com/injective/status/2084852660306620802#m
+http://x.com/BNBCHAIN/status/2084851937648717858#m
+http://x.com/PendleIntern/status/2084845347994804453#m
