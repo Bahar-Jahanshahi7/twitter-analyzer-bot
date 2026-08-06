@@ -3087,3 +3087,5 @@ http://x.com/CantonNetwork/status/2085139537114927606#m
 http://x.com/SuiNetwork/status/2085123496192168239#m
 http://x.com/kaminointern/status/2085120882775675216#m
 http://x.com/SuiNetwork/status/2085123484322287814#m
+http://x.com/CantonNetwork/status/2085161934392029566#m
+http://x.com/BNBCHAIN/status/2085153917738922150#m
