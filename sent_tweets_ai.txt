@@ -3129,3 +3129,5 @@ http://x.com/kamino_liq/status/2085314958682640828#m
 http://x.com/rendernetwork/status/2085526336479613182#m
 http://x.com/CantonNetwork/status/2085524070553075941#m
 http://x.com/BNBCHAIN/status/2085516311518441982#m
+http://x.com/PendleIntern/status/2085537451213504581#m
+http://x.com/injective/status/2085555889193255209#m
