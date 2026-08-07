@@ -3163,3 +3163,5 @@ http://x.com/Nexo/status/2085714373343842726#m
 http://x.com/ethereum/status/2085715199328194959#m
 http://x.com/hashgraph/status/2085647088545624376#m
 http://x.com/LBank_Exchange/status/2085638509663055901#m
+http://x.com/tokenterminal/status/2085711561818288579#m
+http://x.com/CantonNetwork/status/2085738483650314740#m
