@@ -3142,3 +3142,8 @@ http://x.com/dfinity/status/2085650781374480528#m
 http://x.com/BNBCHAIN/status/2085652323880325579#m
 http://x.com/BNBCHAIN/status/2085652312060764338#m
 http://x.com/BNBCHAIN/status/2085652298693586973#m
+http://x.com/Aster_DEX/status/2085688410250052075#m
+http://x.com/pendle_fi/status/2085683146285273125#m
+http://x.com/pendle_fi/status/2085683130049102040#m
+http://x.com/BNBChainDevs/status/2085637079883817359#m
+http://x.com/Nexo/status/2085672804989452477#m
