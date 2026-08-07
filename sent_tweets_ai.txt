@@ -3191,3 +3191,8 @@ http://x.com/BNBCHAIN/status/2085773017959772364#m
 http://x.com/circle/status/2085790934604865916#m
 http://x.com/base/status/2085786549891866875#m
 http://x.com/AerodromeFi/status/2085780638016446918#m
+http://x.com/CantonNetwork/status/2085795861418959019#m
+http://x.com/AlgoFoundation/status/2085799303554171151#m
+http://x.com/JupiterExchange/status/2085801735902163229#m
+http://x.com/AlgoFoundation/status/2085799291470393668#m
+http://x.com/JupiterExchange/status/2085801675097350499#m
