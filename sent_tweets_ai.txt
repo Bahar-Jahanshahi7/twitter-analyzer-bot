@@ -3218,3 +3218,6 @@ http://x.com/NEARProtocol/status/2085845812530069855#m
 http://x.com/injective/status/2085870934301261946#m
 http://x.com/SuiNetwork/status/2085864061691199806#m
 http://x.com/CantonNetwork/status/2085864312824836465#m
+http://x.com/Aster_DEX/status/2085893274192212362#m
+http://x.com/LidoFinance/status/2085886206550929586#m
+http://x.com/CantonNetwork/status/2085886710177501192#m
