@@ -3263,3 +3263,7 @@ http://x.com/NEARProtocol/status/2086492538735644703#m
 http://x.com/NEARProtocol/status/2086492535992582253#m
 http://x.com/NEARProtocol/status/2086492532800709109#m
 http://x.com/pudgypenguins/status/2086487866272612618#m
+http://x.com/injective/status/2086517785530601773#m
+http://x.com/CryptoKaleo/status/2086409420620128658#m
+http://x.com/CantonNetwork/status/2086521392187515030#m
+http://x.com/AerodromeFi/status/2086512094157902209#m
