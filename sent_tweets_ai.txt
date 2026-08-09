@@ -3267,3 +3267,6 @@ http://x.com/injective/status/2086517785530601773#m
 http://x.com/CryptoKaleo/status/2086409420620128658#m
 http://x.com/CantonNetwork/status/2086521392187515030#m
 http://x.com/AerodromeFi/status/2086512094157902209#m
+http://x.com/CantonNetwork/status/2086544041588748615#m
+http://x.com/kamino/status/2086546090921439342#m
+http://x.com/MatrixAINetwork/status/2086542856806928589#m
