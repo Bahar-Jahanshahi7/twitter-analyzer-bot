@@ -3363,3 +3363,6 @@ http://x.com/NEARProtocol/status/2086946782647337259#m
 http://x.com/face_east_/status/2086784164540604538#m
 http://x.com/DeFi_Made_Here/status/2086931256969662895#m
 http://x.com/JupiterExchange/status/2086940582350655929#m
+http://x.com/CantonNetwork/status/2086951476417675604#m
+http://x.com/injective/status/2086958302349385938#m
+http://x.com/injective/status/2086958300592009235#m
