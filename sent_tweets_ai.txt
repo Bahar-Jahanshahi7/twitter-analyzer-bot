@@ -3380,3 +3380,15 @@ http://x.com/Nexo/status/2087105084006060088#m
 http://x.com/Nexo/status/2087105082462511394#m
 http://x.com/jupiter_earn/status/2087119912833868052#m
 http://x.com/ethena/status/2087147834508546424#m
+http://x.com/BNBCHAIN/status/2087163379341214083#m
+http://x.com/CantonNetwork/status/2087166392101691663#m
+http://x.com/kashdhanda/status/2087145958324748359#m
+http://x.com/NEARProtocol/status/2087166567838544087#m
+http://x.com/hedera/status/2087171711993008418#m
+http://x.com/AllezLabs/status/2087157141488730113#m
+http://x.com/injective/status/2087163814311530696#m
+http://x.com/Nexo/status/2087173743802261576#m
+http://x.com/0xResearch/status/2087165889158205870#m
+http://x.com/XLayerOfficial/status/2087162225362374952#m
+http://x.com/pendle_fi/status/2087162895880843480#m
+http://x.com/pendle_fi/status/2087162783746105602#m
