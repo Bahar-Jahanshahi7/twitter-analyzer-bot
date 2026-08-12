@@ -3472,3 +3472,6 @@ http://x.com/pendle_fi/status/2087392204138656132#m
 http://x.com/Stable/status/2087409069929971983#m
 http://x.com/BNBCHAIN/status/2087437275114439124#m
 http://x.com/BNBChainDevs/status/2087388633363861851#m
+http://x.com/jupiter_trade/status/2087445018894057757#m
+http://x.com/Nexo/status/2087464113471414702#m
+http://x.com/strata_markets/status/2087456558511001710#m
