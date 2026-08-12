@@ -3540,3 +3540,8 @@ http://x.com/NEARProtocol/status/2087620354965381340#m
 http://x.com/AerodromeFi/status/2087626634023354773#m
 http://x.com/SuiNetwork/status/2087637779606020263#m
 http://x.com/SuiNetwork/status/2087637639122100703#m
+http://x.com/wintermute_t/status/2087547990089359545#m
+http://x.com/CantonNetwork/status/2087656370686345273#m
+http://x.com/circle/status/2087660403547607148#m
+http://x.com/AerodromeFi/status/2087656642724962510#m
+http://x.com/AerodromeFi/status/2087656630624423979#m
