@@ -3672,3 +3672,7 @@ http://x.com/BNBCHAIN/status/2088234532566892986#m
 http://x.com/BNBCHAIN/status/2088234520638320799#m
 http://x.com/CantonNetwork/status/2088236191472853470#m
 http://x.com/BNBCHAIN/status/2088234508948758906#m
+http://x.com/NEARProtocol/status/2088261529237934361#m
+http://x.com/CantonNetwork/status/2088255065798651937#m
+http://x.com/BitkubOfficial/status/2088136031967092750#m
+http://x.com/hedera/status/2088262363904659661#m
