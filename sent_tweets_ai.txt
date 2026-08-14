@@ -3643,3 +3643,8 @@ http://x.com/injective/status/2088026573576237069#m
 http://x.com/SuiNetwork/status/2088023289721712690#m
 http://x.com/AerodromeFi/status/2088030488430805065#m
 http://x.com/CantonNetwork/status/2088038640220025303#m
+http://x.com/injective/status/2088068116286677466#m
+http://x.com/CantonNetwork/status/2088061037337526597#m
+http://x.com/BNBCHAIN/status/2088068107453522071#m
+http://x.com/pendle_fi/status/2088067720877400507#m
+http://x.com/pendle_fi/status/2088067718532718886#m
