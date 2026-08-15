@@ -3735,3 +3735,5 @@ http://x.com/SuiNetwork/status/2088401100550594914#m
 http://x.com/CantonNetwork/status/2088423173540978753#m
 http://x.com/injective/status/2088445780130410659#m
 http://x.com/SpenserFX/status/2088432613014868107#m
+http://x.com/pendle_fi/status/2088523727248232674#m
+http://x.com/pendle_fi/status/2088523712802984262#m
