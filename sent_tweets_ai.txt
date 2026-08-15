@@ -3732,3 +3732,4 @@ http://x.com/CantonNetwork/status/2088401279533957356#m
 http://x.com/SuiNetwork/status/2088401124068098330#m
 http://x.com/SuiNetwork/status/2088401112290541913#m
 http://x.com/SuiNetwork/status/2088401100550594914#m
+http://x.com/CantonNetwork/status/2088423173540978753#m
