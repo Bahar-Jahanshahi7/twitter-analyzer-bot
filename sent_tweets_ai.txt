@@ -3847,3 +3847,9 @@ http://x.com/CantonNetwork/status/2089418481645072439#m
 http://x.com/injective/status/2089409310484836517#m
 http://x.com/BNBCHAIN/status/2089412039118578167#m
 http://x.com/krakenlistings/status/2089411783681626613#m
+http://x.com/SuiNetwork/status/2089426332627411132#m
+http://x.com/circle/status/2089427039413588375#m
+http://x.com/SuiNetwork/status/2089426320774369306#m
+http://x.com/kamino/status/2089432308025532886#m
+http://x.com/Blockworks/status/2089411981086269481#m
+http://x.com/minnus/status/2089424558814122019#m
