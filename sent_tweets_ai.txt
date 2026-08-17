@@ -3834,3 +3834,12 @@ http://x.com/HederaCommunity/status/2089374190126424177#m
 http://x.com/CantonNetwork/status/2089390296219935003#m
 http://x.com/AttentionToken/status/2089375101011599407#m
 http://x.com/AttentionToken/status/2089375098612433076#m
+http://x.com/SuiNetwork/status/2089398599230890117#m
+http://x.com/hedera/status/2089404892335182262#m
+http://x.com/AlgoFoundation/status/2089397098915754078#m
+http://x.com/MatrixAINetwork/status/2089400647171125317#m
+http://x.com/JupiterExchange/status/2089399213201220021#m
+http://x.com/NEARProtocol/status/2089404355149504825#m
+http://x.com/circle/status/2089401172524437536#m
+http://x.com/JupiterExchange/status/2089399210781159777#m
+http://x.com/AttentionToken/status/2089390846542004342#m
