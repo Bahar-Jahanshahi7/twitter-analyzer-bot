@@ -3843,3 +3843,7 @@ http://x.com/NEARProtocol/status/2089404355149504825#m
 http://x.com/circle/status/2089401172524437536#m
 http://x.com/JupiterExchange/status/2089399210781159777#m
 http://x.com/AttentionToken/status/2089390846542004342#m
+http://x.com/CantonNetwork/status/2089418481645072439#m
+http://x.com/injective/status/2089409310484836517#m
+http://x.com/BNBCHAIN/status/2089412039118578167#m
+http://x.com/krakenlistings/status/2089411783681626613#m
