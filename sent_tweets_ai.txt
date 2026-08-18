@@ -3878,3 +3878,6 @@ http://x.com/CantonNetwork/status/2089510588657348973#m
 http://x.com/pendle_fi/status/2089545119846535252#m
 http://x.com/pendle_fi/status/2089545116763759019#m
 http://x.com/BNBCHAIN/status/2089502584503455999#m
+http://x.com/Aster_DEX/status/2089562945525252182#m
+http://x.com/BNBCHAIN/status/2089562952550461577#m
+http://x.com/SonicLabs/status/2089562250965336184#m
