@@ -3898,3 +3898,12 @@ http://x.com/0xfluid/status/2089691144074764522#m
 http://x.com/kashdhanda/status/2089692949055705147#m
 http://x.com/strata_markets/status/2089670411701334315#m
 http://x.com/agi3official/status/2089675020285124656#m
+http://x.com/circle/status/2089698835916591355#m
+http://x.com/pendle_fi/status/2089519169113051215#m
+http://x.com/NEARProtocol/status/2089703636305604720#m
+http://x.com/SuiNetwork/status/2089702767367753793#m
+http://x.com/NEARProtocol/status/2089703424879182041#m
+http://x.com/SuiNetwork/status/2089702755694985265#m
+http://x.com/NEARProtocol/status/2089700771575066866#m
+http://x.com/SuiNetwork/status/2089702743585988917#m
+http://x.com/CantonNetwork/status/2089704114020110572#m
