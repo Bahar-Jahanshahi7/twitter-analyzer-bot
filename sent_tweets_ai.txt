@@ -3976,3 +3976,5 @@ http://x.com/NEARProtocol/status/2089816892294783460#m
 http://x.com/CantonNetwork/status/2089830697993392446#m
 http://x.com/Uniswap/status/2089827247825801504#m
 http://x.com/kaminointern/status/2089825173213938072#m
+http://x.com/circle/status/2089834735191400575#m
+http://x.com/MatrixAINetwork/status/2089839154096230657#m
