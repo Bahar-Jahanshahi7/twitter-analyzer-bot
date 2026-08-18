@@ -3907,3 +3907,12 @@ http://x.com/SuiNetwork/status/2089702755694985265#m
 http://x.com/NEARProtocol/status/2089700771575066866#m
 http://x.com/SuiNetwork/status/2089702743585988917#m
 http://x.com/CantonNetwork/status/2089704114020110572#m
+http://x.com/LlamaRisk/status/2089716305482129629#m
+http://x.com/AlgoFoundation/status/2089713935410676026#m
+http://x.com/Nexo/status/2089713930209735142#m
+http://x.com/hedera/status/2089719902324076616#m
+http://x.com/tokens/status/2089721496264642741#m
+http://x.com/KevinWSHPod/status/2089713277911879685#m
+http://x.com/AerodromeFi/status/2089714220359352683#m
+http://x.com/heypengubot/status/2089716373869990043#m
+http://x.com/YesImPudgy/status/2089510966450872485#m
