@@ -3973,3 +3973,6 @@ http://x.com/AttentionToken/status/2089820285318918490#m
 http://x.com/AttentionToken/status/2089819510815502601#m
 http://x.com/BNBCHAIN/status/2089819677530771660#m
 http://x.com/NEARProtocol/status/2089816892294783460#m
+http://x.com/CantonNetwork/status/2089830697993392446#m
+http://x.com/Uniswap/status/2089827247825801504#m
+http://x.com/kaminointern/status/2089825173213938072#m
