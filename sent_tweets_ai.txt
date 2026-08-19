@@ -4048,3 +4048,14 @@ http://x.com/Aster_DEX/status/2090109197715374274#m
 http://x.com/JupiterExchange/status/2090101829468344575#m
 http://x.com/Nexo/status/2090101406153793666#m
 http://x.com/circle/status/2090106516816978124#m
+http://x.com/hedera/status/2090124634653880752#m
+http://x.com/kpk_io/status/2090116808988577972#m
+http://x.com/NEARProtocol/status/2090117609383453110#m
+http://x.com/AlgoFoundation/status/2090129185050333265#m
+http://x.com/angrycryptoshow/status/2090104047126663257#m
+http://x.com/AlgoFoundation/status/2090129172425498865#m
+http://x.com/MatrixAINetwork/status/2090121339353145527#m
+http://x.com/AttentionToken/status/2090126141424013566#m
+http://x.com/AttentionToken/status/2090126139863765415#m
+http://x.com/0xfluid/status/2090126748050772387#m
+http://x.com/Nexo/status/2090122274275774467#m
