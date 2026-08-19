@@ -4014,3 +4014,8 @@ http://x.com/Morpho/status/2090061005095407755#m
 http://x.com/Morpho/status/2090060993024163924#m
 http://x.com/JupiterExchange/status/2090045160730009615#m
 http://x.com/JupiterExchange/status/2090045157856981503#m
+http://x.com/CantonNetwork/status/2090065747082891302#m
+http://x.com/0xfluid/status/2090072321549832643#m
+http://x.com/AlchemixFi/status/2090060973965189543#m
+http://x.com/NEARProtocol/status/2090064143864746104#m
+http://x.com/hedera/status/2090061972439958003#m
