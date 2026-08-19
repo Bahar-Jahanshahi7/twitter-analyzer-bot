@@ -4071,3 +4071,7 @@ http://x.com/SonicLabs/status/2090130876487356642#m
 http://x.com/SuiNetwork/status/2090141944399937691#m
 http://x.com/NEARProtocol/status/2090140097672802660#m
 http://x.com/NEARProtocol/status/2090140094103486506#m
+http://x.com/jupiter_manage/status/2090149439113752797#m
+http://x.com/AerodromeFi/status/2090158820811292803#m
+http://x.com/AerodromeFi/status/2090155111708561629#m
+http://x.com/circle/status/2090151821386113535#m
