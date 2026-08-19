@@ -4002,3 +4002,7 @@ http://x.com/Nexo/status/2089986464830349779#m
 http://x.com/Stable/status/2090010598067376627#m
 http://x.com/pendle_fi/status/2090016196943036425#m
 http://x.com/pendle_fi/status/2090016182439235626#m
+http://x.com/0xfluid/status/2090025241150214395#m
+http://x.com/Aster_DEX/status/2090031101939200344#m
+http://x.com/Aster_DEX/status/2090031089595322733#m
+http://x.com/BNBCHAIN/status/2090031076848656443#m
