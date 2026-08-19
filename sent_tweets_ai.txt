@@ -3996,3 +3996,5 @@ http://x.com/CantonNetwork/status/2089872724910813534#m
 http://x.com/CantonNetwork/status/2089895374119211365#m
 http://x.com/injective/status/2089923330749194286#m
 http://x.com/Stable/status/2089914914823622941#m
+http://x.com/Nexo/status/2089940830224027962#m
+http://x.com/Nexo/status/2089940592964915268#m
