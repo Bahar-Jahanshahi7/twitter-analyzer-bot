@@ -4116,3 +4116,7 @@ http://x.com/NEARProtocol/status/2090262399672529145#m
 http://x.com/BNBChainDevs/status/2090227364227694647#m
 http://x.com/BNBCHAIN/status/2090255802049167625#m
 http://x.com/NEARProtocol/status/2090262398401696111#m
+http://x.com/BNBCHAIN/status/2090287717880119533#m
+http://x.com/injective/status/2090279634797502651#m
+http://x.com/pendle_fi/status/2090283927726657852#m
+http://x.com/pendle_fi/status/2090283913491124662#m
