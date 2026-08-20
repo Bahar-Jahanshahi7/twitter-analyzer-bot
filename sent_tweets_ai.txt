@@ -4233,3 +4233,5 @@ http://x.com/USDC/status/2090514579398983912#m
 http://x.com/Dupxyz/status/2090529082685460721#m
 http://x.com/xBartega/status/2090538590715380157#m
 http://x.com/kaminointern/status/2090552276523843892#m
+http://x.com/CantonNetwork/status/2090575355174080673#m
+http://x.com/NEARProtocol/status/2090569051005161791#m
