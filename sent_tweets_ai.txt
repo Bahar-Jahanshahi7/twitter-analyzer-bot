@@ -4108,3 +4108,6 @@ http://x.com/CryptoMagellan/status/2090211127900950580#m
 http://x.com/CantonNetwork/status/2090212967174586646#m
 http://x.com/MSBIntel/status/2090084501506711565#m
 http://x.com/AerodromeFi/status/2090222363166339383#m
+http://x.com/SonicLabs/status/2090237423318180004#m
+http://x.com/AerodromeFi/status/2090232134518575247#m
+http://x.com/CantonNetwork/status/2090235112751542564#m
