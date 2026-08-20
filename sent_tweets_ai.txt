@@ -4137,3 +4137,7 @@ http://x.com/Nexo/status/2090370268053012619#m
 http://x.com/PierreSamaties/status/2090321200094294105#m
 http://x.com/Stable/status/2090365437318218147#m
 http://x.com/Stable/status/2090365424164819099#m
+http://x.com/GoPlausible/status/2090345844276900083#m
+http://x.com/JupiterExchange/status/2090391098526933177#m
+http://x.com/CoinMarketCap/status/2090358469975044300#m
+http://x.com/BNBCHAIN/status/2090385870062748005#m
