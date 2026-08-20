@@ -4111,3 +4111,8 @@ http://x.com/AerodromeFi/status/2090222363166339383#m
 http://x.com/SonicLabs/status/2090237423318180004#m
 http://x.com/AerodromeFi/status/2090232134518575247#m
 http://x.com/CantonNetwork/status/2090235112751542564#m
+http://x.com/NEARProtocol/status/2090262401400582146#m
+http://x.com/NEARProtocol/status/2090262399672529145#m
+http://x.com/BNBChainDevs/status/2090227364227694647#m
+http://x.com/BNBCHAIN/status/2090255802049167625#m
+http://x.com/NEARProtocol/status/2090262398401696111#m
