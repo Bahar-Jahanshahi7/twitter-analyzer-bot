@@ -4141,3 +4141,8 @@ http://x.com/GoPlausible/status/2090345844276900083#m
 http://x.com/JupiterExchange/status/2090391098526933177#m
 http://x.com/CoinMarketCap/status/2090358469975044300#m
 http://x.com/BNBCHAIN/status/2090385870062748005#m
+http://x.com/hedera/status/2090397309284540575#m
+http://x.com/Nexo/status/2090395468417085847#m
+http://x.com/BNBCHAIN/status/2090399748826284381#m
+http://x.com/RWAFoundation_/status/2090378701779149234#m
+http://x.com/BSCNews/status/2090385907744682458#m
