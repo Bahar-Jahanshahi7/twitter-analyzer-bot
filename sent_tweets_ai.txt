@@ -4184,3 +4184,15 @@ http://x.com/toto/status/2090458020077588673#m
 http://x.com/hedera/status/2090460096010588264#m
 http://x.com/hedera/status/2090460095557558427#m
 http://x.com/AllezLabs/status/2090455912045813940#m
+http://x.com/sparkfinance/status/2090469928050815043#m
+http://x.com/AerodromeFi/status/2090471056620614130#m
+http://x.com/AlgoFoundation/status/2090484270301335867#m
+http://x.com/JupiterExchange/status/2090476657597366657#m
+http://x.com/Lighter_xyz/status/2090473304159088660#m
+http://x.com/SuiNetwork/status/2090484259815670124#m
+http://x.com/CantonNetwork/status/2090477459636433402#m
+http://x.com/JupiterExchange/status/2090476500348735945#m
+http://x.com/injective/status/2090482228744614064#m
+http://x.com/KevinWSHPod/status/2090468473566822493#m
+http://x.com/NEARProtocol/status/2090476445411741970#m
+http://x.com/Nexo/status/2090471494401093653#m
