@@ -4317,3 +4317,7 @@ http://x.com/CantonNetwork/status/2090867278153708010#m
 http://x.com/PenguinSalesBot/status/2090829659852476513#m
 http://x.com/LucaNetz/status/2090854884589367740#m
 http://x.com/injective/status/2090869882568978501#m
+http://x.com/rendernetwork/status/2090876964751945860#m
+http://x.com/AerodromeFi/status/2090878320070238361#m
+http://x.com/circle/status/2090876593485013182#m
+http://x.com/jupiter_manage/status/2090879861145629124#m
