@@ -4255,3 +4255,6 @@ http://x.com/Aster_DEX/status/2090685282517713336#m
 http://x.com/BNBCHAIN/status/2090704296522174500#m
 http://x.com/pendle_fi/status/2090709761226690984#m
 http://x.com/pendle_fi/status/2090709746328444938#m
+http://x.com/Aster_DEX/status/2090726094903382386#m
+http://x.com/BNBCHAIN/status/2090718058981552271#m
+http://x.com/LidoFinance/status/2090715448924832026#m
