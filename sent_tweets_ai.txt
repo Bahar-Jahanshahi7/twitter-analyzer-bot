@@ -4291,3 +4291,6 @@ http://x.com/injective/status/2090811002505879837#m
 http://x.com/AerodromeFi/status/2090815524615991390#m
 http://x.com/JupiterExchange/status/2090803842354921519#m
 http://x.com/hashgraph/status/2090802970833084842#m
+http://x.com/Nexo/status/2090823742528348226#m
+http://x.com/pudgypenguins/status/2090819658718859296#m
+http://x.com/pudgypenguins/status/2090818972874617109#m
