@@ -4294,3 +4294,9 @@ http://x.com/hashgraph/status/2090802970833084842#m
 http://x.com/Nexo/status/2090823742528348226#m
 http://x.com/pudgypenguins/status/2090819658718859296#m
 http://x.com/pudgypenguins/status/2090818972874617109#m
+http://x.com/NEARProtocol/status/2090834234223042615#m
+http://x.com/kucoincom/status/2090823741530104319#m
+http://x.com/AlgoFoundation/status/2090842636173386114#m
+http://x.com/AlgoFoundation/status/2090842623707910606#m
+http://x.com/circle/status/2090839358651953177#m
+http://x.com/CantonNetwork/status/2090839847657263515#m
