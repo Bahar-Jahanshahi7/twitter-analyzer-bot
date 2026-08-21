@@ -4321,3 +4321,6 @@ http://x.com/rendernetwork/status/2090876964751945860#m
 http://x.com/AerodromeFi/status/2090878320070238361#m
 http://x.com/circle/status/2090876593485013182#m
 http://x.com/jupiter_manage/status/2090879861145629124#m
+http://x.com/Aster_DEX/status/2090886856724652039#m
+http://x.com/NEARProtocol/status/2090885076246581315#m
+http://x.com/NEARProtocol/status/2090885073532825794#m
