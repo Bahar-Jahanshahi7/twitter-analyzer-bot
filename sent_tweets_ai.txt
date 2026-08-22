@@ -4380,3 +4380,5 @@ http://x.com/CantonNetwork/status/2091207268448555328#m
 http://x.com/MatrixAINetwork/status/2091221233652355401#m
 http://x.com/NEARProtocol/status/2091216727191269589#m
 http://x.com/MerlinEgalite/status/2091219258865058006#m
+http://x.com/injective/status/2091232304630816871#m
+http://x.com/wagmiAlexander/status/2091223039933288464#m
