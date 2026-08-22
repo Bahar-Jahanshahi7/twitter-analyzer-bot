@@ -4344,3 +4344,8 @@ http://x.com/circle/status/2090921897810600085#m
 http://x.com/NEARProtocol/status/2090914619124555985#m
 http://x.com/pudgypenguins/status/2090944248082243932#m
 http://x.com/CantonNetwork/status/2090937491196883094#m
+http://x.com/BNBCHAIN/status/2090952140587942310#m
+http://x.com/CantonNetwork/status/2090960140430160002#m
+http://x.com/SuiNetwork/status/2090952723692990875#m
+http://x.com/SuiNetwork/status/2090952711571386701#m
+http://x.com/SuiNetwork/status/2090952699605143908#m
