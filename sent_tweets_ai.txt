@@ -4398,3 +4398,5 @@ http://x.com/Nexo/status/2091493465959940219#m
 http://x.com/injective/status/2091503243658473661#m
 http://x.com/Cardano_CF/status/2091495675515355306#m
 http://x.com/MatrixAINetwork/status/2091525681234788862#m
+http://x.com/pudgypenguins/status/2091537880560673085#m
+http://x.com/CantonNetwork/status/2091535682565218813#m
