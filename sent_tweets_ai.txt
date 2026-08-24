@@ -4517,3 +4517,7 @@ http://x.com/hedera/status/2092002026070716685#m
 http://x.com/pact_fi/status/2091950806450983038#m
 http://x.com/AerodromeFi/status/2091999957981257766#m
 http://x.com/blade_nd/status/2091993840014000596#m
+http://x.com/CantonNetwork/status/2092005025161613516#m
+http://x.com/injective/status/2092012721134780460#m
+http://x.com/NEARProtocol/status/2092013774488125678#m
+http://x.com/NEARProtocol/status/2092013772890108187#m
