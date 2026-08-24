@@ -4503,3 +4503,5 @@ http://x.com/AttentionToken/status/2091949908274127337#m
 http://x.com/AttentionToken/status/2091948734485570015#m
 http://x.com/MatrixAINetwork/status/2091953538276757515#m
 http://x.com/CantonNetwork/status/2091955196729373159#m
+http://x.com/pudgypenguins/status/2091967335120724416#m
+http://x.com/ilblackdragon/status/2091966281486577740#m
