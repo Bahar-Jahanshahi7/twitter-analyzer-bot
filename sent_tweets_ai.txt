@@ -4646,3 +4646,9 @@ http://x.com/AerodromeFi/status/2092369183287754989#m
 http://x.com/jupiter_earn/status/2092373722745458918#m
 http://x.com/CantonNetwork/status/2092367412972704214#m
 http://x.com/circle/status/2092371439655460888#m
+http://x.com/CantonNetwork/status/2092387294372393359#m
+http://x.com/ethconf/status/2092265871578411086#m
+http://x.com/jupiter_manage/status/2092286770616643955#m
+http://x.com/SonicLabs/status/2092383483608125937#m
+http://x.com/SuiNetwork/status/2092389941125017989#m
+http://x.com/SuiNetwork/status/2092389873953251802#m
