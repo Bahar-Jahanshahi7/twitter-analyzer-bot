@@ -4633,3 +4633,8 @@ http://x.com/NEARProtocol/status/2092330231587639629#m
 http://x.com/injective/status/2092325018122199170#m
 http://x.com/SonicLabs/status/2092323404523409506#m
 http://x.com/circle/status/2092326146151174416#m
+http://x.com/CantonNetwork/status/2092339227182731430#m
+http://x.com/BNBCHAIN/status/2092341308920606849#m
+http://x.com/wagmiAlexander/status/2092261815132565973#m
+http://x.com/AerodromeFi/status/2092342517719302643#m
+http://x.com/therollupco/status/2092338815751074160#m
