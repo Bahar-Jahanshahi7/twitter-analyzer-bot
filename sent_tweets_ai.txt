@@ -4655,3 +4655,5 @@ http://x.com/SuiNetwork/status/2092389873953251802#m
 http://x.com/BNBCHAIN/status/2092401684584538356#m
 http://x.com/injective/status/2092416775904285144#m
 http://x.com/CantonNetwork/status/2092409943215190158#m
+http://x.com/pendle_fi/status/2092435913435672709#m
+http://x.com/pendle_fi/status/2092435898873045301#m
