@@ -4660,3 +4660,6 @@ http://x.com/pendle_fi/status/2092435898873045301#m
 http://x.com/Aster_DEX/status/2092450633353957495#m
 http://x.com/Aster_DEX/status/2092450621261799653#m
 http://x.com/Aster_DEX/status/2092468050889240871#m
+http://x.com/BNBCHAIN/status/2092490900178100530#m
+http://x.com/circle/status/2092477891279753277#m
+http://x.com/tn_pendle/status/2092433957975642246#m
