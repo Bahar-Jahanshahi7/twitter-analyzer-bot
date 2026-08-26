@@ -4652,3 +4652,6 @@ http://x.com/jupiter_manage/status/2092286770616643955#m
 http://x.com/SonicLabs/status/2092383483608125937#m
 http://x.com/SuiNetwork/status/2092389941125017989#m
 http://x.com/SuiNetwork/status/2092389873953251802#m
+http://x.com/BNBCHAIN/status/2092401684584538356#m
+http://x.com/injective/status/2092416775904285144#m
+http://x.com/CantonNetwork/status/2092409943215190158#m
