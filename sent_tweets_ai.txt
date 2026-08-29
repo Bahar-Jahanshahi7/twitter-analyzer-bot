@@ -4863,3 +4863,7 @@ http://x.com/hedera/status/2093379082344071281#m
 http://x.com/BNBCHAIN/status/2093488859707294091#m
 http://x.com/SuiNetwork/status/2093502070565589159#m
 http://x.com/CantonNetwork/status/2093497107030130941#m
+http://x.com/crypto_linn/status/2093537717451927972#m
+http://x.com/BNBCHAIN/status/2093579421638852991#m
+http://x.com/jerallaire/status/2093515801466966375#m
+http://x.com/BNBCHAIN/status/2093579408594649211#m
