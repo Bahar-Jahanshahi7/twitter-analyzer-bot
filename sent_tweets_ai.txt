@@ -4989,3 +4989,14 @@ http://x.com/Vault_St/status/2094438372596949433#m
 http://x.com/injective/status/2094495314568765761#m
 http://x.com/jumperapp/status/2094435978048143789#m
 http://x.com/injective/status/2094408916813689038#m
+http://x.com/circle/status/2094523118039568440#m
+http://x.com/jupiter_earn/status/2094562872710017462#m
+http://x.com/jupiter_trade/status/2094508018075349117#m
+http://x.com/CantonNetwork/status/2094562627804594572#m
+http://x.com/CantonNetwork/status/2094541740153721015#m
+http://x.com/CantonNetwork/status/2094514561076629584#m
+http://x.com/SuiNetwork/status/2094561977578475543#m
+http://x.com/injective/status/2094523293428584691#m
+http://x.com/AerodromeFi/status/2094553779173781523#m
+http://x.com/AerodromeFi/status/2094553767165489339#m
+http://x.com/AerodromeFi/status/2094508028221632708#m
