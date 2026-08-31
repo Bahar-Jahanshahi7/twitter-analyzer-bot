@@ -4929,3 +4929,6 @@ http://x.com/CantonNetwork/status/2094070385108975968#m
 http://x.com/AerodromeFi/status/2094067849325363287#m
 http://x.com/AlgoFoundation/status/2094112428829360504#m
 http://x.com/injective/status/2094176087521493460#m
+http://x.com/injective/status/2094256681207185552#m
+http://x.com/PendleIntern/status/2094233337665839515#m
+http://x.com/BNBCHAIN/status/2094282829295165467#m
