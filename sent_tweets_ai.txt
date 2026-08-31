@@ -4932,3 +4932,14 @@ http://x.com/injective/status/2094176087521493460#m
 http://x.com/injective/status/2094256681207185552#m
 http://x.com/PendleIntern/status/2094233337665839515#m
 http://x.com/BNBCHAIN/status/2094282829295165467#m
+http://x.com/SuiNetwork/status/2094319539022606462#m
+http://x.com/Aster_DEX/status/2094342485149725007#m
+http://x.com/BNBCHAIN/status/2094334416696869349#m
+http://x.com/Nexo/status/2094349245356662988#m
+http://x.com/jupiter_trade/status/2094372587392635302#m
+http://x.com/JupiterExchange/status/2094337397152710727#m
+http://x.com/crypto_linn/status/2094318355910099130#m
+http://x.com/pendle_fi/status/2094364664545337419#m
+http://x.com/pendle_fi/status/2094364649085084000#m
+http://x.com/Aster_DEX/status/2094342472990412926#m
+http://x.com/Aster_DEX/status/2094326827099783606#m
