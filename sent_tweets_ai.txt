@@ -5000,3 +5000,10 @@ http://x.com/injective/status/2094523293428584691#m
 http://x.com/AerodromeFi/status/2094553779173781523#m
 http://x.com/AerodromeFi/status/2094553767165489339#m
 http://x.com/AerodromeFi/status/2094508028221632708#m
+http://x.com/MatrixAINetwork/status/2094605052925362362#m
+http://x.com/circle/status/2094580952987312246#m
+http://x.com/pendle_fi/status/2094601280694231349#m
+http://x.com/CantonNetwork/status/2094584270421422452#m
+http://x.com/pendle_fi/status/2094601278404125031#m
+http://x.com/injective/status/2094604845697184198#m
+http://x.com/BNBCHAIN/status/2094576038420324838#m
