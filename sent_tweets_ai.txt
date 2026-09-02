@@ -5107,3 +5107,5 @@ http://x.com/rendernetwork/status/2094918690114335224#m
 http://x.com/rendernetwork/status/2094918688314913072#m
 http://x.com/injective/status/2094900641416056837#m
 http://x.com/AerodromeFi/status/2094888375396540853#m
+http://x.com/BNBCHAIN/status/2094938416202846477#m
+http://x.com/CantonNetwork/status/2094946658379522153#m
