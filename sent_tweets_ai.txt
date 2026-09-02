@@ -5109,3 +5109,7 @@ http://x.com/injective/status/2094900641416056837#m
 http://x.com/AerodromeFi/status/2094888375396540853#m
 http://x.com/BNBCHAIN/status/2094938416202846477#m
 http://x.com/CantonNetwork/status/2094946658379522153#m
+http://x.com/pendle_fi/status/2094994395531780134#m
+http://x.com/BNBCHAIN/status/2094983689906078144#m
+http://x.com/pendle_fi/status/2094994393237446826#m
+http://x.com/injective/status/2094966062584316381#m
