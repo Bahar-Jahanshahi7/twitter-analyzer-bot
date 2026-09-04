@@ -5402,3 +5402,13 @@ http://x.com/CantonNetwork/status/2095963357631459395#m
 http://x.com/BNBCHAIN/status/2095916045865513250#m
 http://x.com/AttentionToken/status/2095913510148477322#m
 http://x.com/AttentionToken/status/2095913507929624789#m
+http://x.com/NEARProtocol/status/2095961480596242672#m
+http://x.com/CantonNetwork/status/2096011927759826984#m
+http://x.com/SonicLabs/status/2095973968801124653#m
+http://x.com/CantonNetwork/status/2095991795008061653#m
+http://x.com/NEARProtocol/status/2095906808086831482#m
+http://x.com/AlexAuroraDev/status/2095902724160122995#m
+http://x.com/AerodromeFi/status/2096017433677168930#m
+http://x.com/JupiterExchange/status/2096016687938322665#m
+http://x.com/hedera/status/2095969142356476346#m
+http://x.com/HederaCommunity/status/2095957570309546099#m
