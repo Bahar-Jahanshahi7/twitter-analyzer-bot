@@ -5412,3 +5412,6 @@ http://x.com/AerodromeFi/status/2096017433677168930#m
 http://x.com/JupiterExchange/status/2096016687938322665#m
 http://x.com/hedera/status/2095969142356476346#m
 http://x.com/HederaCommunity/status/2095957570309546099#m
+http://x.com/circle/status/2096043040234488267#m
+http://x.com/CantonNetwork/status/2096033318676623383#m
+http://x.com/BNBCHAIN/status/2096025545498620204#m
