@@ -5415,3 +5415,7 @@ http://x.com/HederaCommunity/status/2095957570309546099#m
 http://x.com/circle/status/2096043040234488267#m
 http://x.com/CantonNetwork/status/2096033318676623383#m
 http://x.com/BNBCHAIN/status/2096025545498620204#m
+http://x.com/BNBCHAIN/status/2096146335674069441#m
+http://x.com/Nexo/status/2096113092207800795#m
+http://x.com/NEARProtocol/status/2096029188994023892#m
+http://x.com/PendleIntern/status/2096125040358297617#m
