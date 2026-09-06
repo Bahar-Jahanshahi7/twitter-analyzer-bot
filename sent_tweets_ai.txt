@@ -5447,3 +5447,6 @@ http://x.com/injective/status/2096353618723008879#m
 http://x.com/injective/status/2096405095491539402#m
 http://x.com/Aster_DEX/status/2096485102117327011#m
 http://x.com/Aster_DEX/status/2096485089890947216#m
+http://x.com/injective/status/2096589699116601492#m
+http://x.com/Nexo/status/2096580605345444158#m
+http://x.com/BNBCHAIN/status/2096569130069401805#m
