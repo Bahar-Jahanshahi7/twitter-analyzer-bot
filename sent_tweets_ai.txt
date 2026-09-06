@@ -5444,3 +5444,6 @@ http://x.com/CantonNetwork/status/2096317944091254878#m
 http://x.com/injective/status/2096313074252751170#m
 http://x.com/CantonNetwork/status/2096368778875662820#m
 http://x.com/injective/status/2096353618723008879#m
+http://x.com/injective/status/2096405095491539402#m
+http://x.com/Aster_DEX/status/2096485102117327011#m
+http://x.com/Aster_DEX/status/2096485089890947216#m
