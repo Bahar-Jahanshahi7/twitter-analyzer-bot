@@ -5542,3 +5542,7 @@ http://x.com/AerodromeFi/status/2097056076655178117#m
 http://x.com/BNBCHAIN/status/2097052314896904457#m
 http://x.com/kamino_swap/status/2097074231196438750#m
 http://x.com/gumsays/status/2097075470235758847#m
+http://x.com/NEARProtocol/status/2097113141972701690#m
+http://x.com/pendle_fi/status/2097113764848156891#m
+http://x.com/pendle_fi/status/2097113755721335086#m
+http://x.com/CantonNetwork/status/2097120482306719880#m
