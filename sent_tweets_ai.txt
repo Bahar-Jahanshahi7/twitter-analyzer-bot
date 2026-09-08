@@ -5546,3 +5546,10 @@ http://x.com/NEARProtocol/status/2097113141972701690#m
 http://x.com/pendle_fi/status/2097113764848156891#m
 http://x.com/pendle_fi/status/2097113755721335086#m
 http://x.com/CantonNetwork/status/2097120482306719880#m
+http://x.com/BNBChainDevs/status/2097112703529623615#m
+http://x.com/PendleIntern/status/2097187726890254593#m
+http://x.com/BNBCHAIN/status/2097173116384354639#m
+http://x.com/jupiter_earn/status/2097152662655606959#m
+http://x.com/PendleIntern/status/2097174730184999328#m
+http://x.com/pendle_fi/status/2097169016578261261#m
+http://x.com/injective/status/2097137676965032379#m
