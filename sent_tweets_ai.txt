@@ -5786,3 +5786,9 @@ http://x.com/circle/status/2098124250804789475#m
 http://x.com/BuildOnCircle/status/2098109253244408219#m
 http://x.com/BNBCHAIN/status/2098109333909152170#m
 http://x.com/CantonNetwork/status/2098116042371575858#m
+http://x.com/CantonNetwork/status/2098165618876805188#m
+http://x.com/NEARProtocol/status/2098171231866405181#m
+http://x.com/circle/status/2098171634406572118#m
+http://x.com/ChelseaFC/status/2098122082072887589#m
+http://x.com/jerallaire/status/2098135721613599101#m
+http://x.com/therollupco/status/2098080450480591045#m
