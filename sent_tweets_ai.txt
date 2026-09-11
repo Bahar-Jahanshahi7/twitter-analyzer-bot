@@ -5848,3 +5848,5 @@ http://x.com/near_intents/status/2098407088242467122#m
 http://x.com/Nexo/status/2098458307988197410#m
 http://x.com/Nexo/status/2098434785190568071#m
 http://x.com/Nexo/status/2098395709930136019#m
+http://x.com/BNBCHAIN/status/2098501886789763539#m
+http://x.com/injective/status/2098524533070115130#m
