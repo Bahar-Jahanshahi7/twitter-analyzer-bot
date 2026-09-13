@@ -5884,3 +5884,7 @@ http://x.com/BNBCHAIN/status/2098985042567471504#m
 http://x.com/NEARProtocol/status/2098968435506008404#m
 http://x.com/NEARProtocol/status/2098968427553587289#m
 http://x.com/mirza/status/2098929093039288572#m
+http://x.com/injective/status/2099134093124399231#m
+http://x.com/Aster_DEX/status/2099032980094341233#m
+http://x.com/Aster_DEX/status/2099032966660059258#m
+http://x.com/BNBCHAIN/status/2099105846856646707#m
