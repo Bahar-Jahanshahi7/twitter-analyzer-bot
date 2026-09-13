@@ -5888,3 +5888,14 @@ http://x.com/injective/status/2099134093124399231#m
 http://x.com/Aster_DEX/status/2099032980094341233#m
 http://x.com/Aster_DEX/status/2099032966660059258#m
 http://x.com/BNBCHAIN/status/2099105846856646707#m
+http://x.com/jup_predict/status/2099060201185837113#m
+http://x.com/pudgypenguins/status/2099141590916710448#m
+http://x.com/NEARProtocol/status/2099167638433808470#m
+http://x.com/MatrixAINetwork/status/2099188861905883255#m
+http://x.com/SuiNetwork/status/2099181349576036594#m
+http://x.com/AlgoFoundation/status/2099189636228939871#m
+http://x.com/Nexo/status/2099175811131539533#m
+http://x.com/SuiNetwork/status/2099181336393290216#m
+http://x.com/CantonNetwork/status/2099143814699250143#m
+http://x.com/HederaCommunity/status/2098976482366226681#m
+http://x.com/McLarenF1/status/2099145957325590626#m
