@@ -5908,3 +5908,12 @@ http://x.com/injective/status/2099307766808564192#m
 http://x.com/NEARProtocol/status/2099373036914852332#m
 http://x.com/near_intents/status/2099311438510915640#m
 http://x.com/BNBChainDevs/status/2099350037398716541#m
+http://x.com/hedera/status/2099491426472013887#m
+http://x.com/CantonNetwork/status/2099487831353856109#m
+http://x.com/hedera/status/2099491424580297127#m
+http://x.com/realRiceAI/status/2099470253671735530#m
+http://x.com/hashpack/status/2099483888951378268#m
+http://x.com/Nexo/status/2099477202806976561#m
+http://x.com/Nexo/status/2099417895046443403#m
+http://x.com/BNBCHAIN/status/2099473496334389667#m
+http://x.com/BNBCHAIN/status/2099415363905569204#m
