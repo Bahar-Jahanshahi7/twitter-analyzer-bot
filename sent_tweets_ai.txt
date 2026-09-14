@@ -5905,3 +5905,6 @@ http://x.com/NetNetCap/status/2099145331459924002#m
 http://x.com/CantonNetwork/status/2099227616829898786#m
 http://x.com/CantonNetwork/status/2099204967391273092#m
 http://x.com/injective/status/2099307766808564192#m
+http://x.com/NEARProtocol/status/2099373036914852332#m
+http://x.com/near_intents/status/2099311438510915640#m
+http://x.com/BNBChainDevs/status/2099350037398716541#m
