@@ -6173,3 +6173,6 @@ http://x.com/NEARProtocol/status/2101106499405983886#m
 http://x.com/Morpho/status/2101227422729240607#m
 http://x.com/BNBCHAIN/status/2101280210809126989#m
 http://x.com/Nexo/status/2101282158505587025#m
+http://x.com/Nexo/status/2101310341217165726#m
+http://x.com/Aster_DEX/status/2101307195434688556#m
+http://x.com/Aster_DEX/status/2101306243885441452#m
