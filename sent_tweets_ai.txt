@@ -6439,3 +6439,17 @@ http://x.com/solana/status/2104231475575140606#m
 http://x.com/Nexo/status/2104529104334688677#m
 http://x.com/Nexo/status/2104529099477619004#m
 http://x.com/Nexo/status/2104488785547239698#m
+http://x.com/aave/status/2104603085377294424#m
+http://x.com/Morpho/status/2104612449861386281#m
+http://x.com/MerlinEgalite/status/2104561004181139549#m
+http://x.com/itsbcj/status/2104591152150171737#m
+http://x.com/LBank_Exchange/status/2104623731330920633#m
+http://x.com/pudgypenguins/status/2104612133971575172#m
+http://x.com/wes_cream/status/2104539209105277320#m
+http://x.com/AlgoFoundation/status/2104613250386247865#m
+http://x.com/AlgoFoundation/status/2104613238122103182#m
+http://x.com/AlgoFoundation/status/2104613214952767614#m
+http://x.com/Nexo/status/2104564144594722978#m
+http://x.com/circle/status/2104610626920481124#m
+http://x.com/circle/status/2104602033198186721#m
+http://x.com/MatrixAINetwork/status/2104583157219496380#m
