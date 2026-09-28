@@ -6436,3 +6436,6 @@ http://x.com/MatrixAINetwork/status/2104258517150388460#m
 http://x.com/moonshot/status/2104336434920349727#m
 http://x.com/Gemini/status/2104250311426621444#m
 http://x.com/solana/status/2104231475575140606#m
+http://x.com/Nexo/status/2104529104334688677#m
+http://x.com/Nexo/status/2104529099477619004#m
+http://x.com/Nexo/status/2104488785547239698#m
