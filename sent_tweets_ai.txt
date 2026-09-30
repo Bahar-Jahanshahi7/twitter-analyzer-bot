@@ -6480,3 +6480,5 @@ http://x.com/rendernetwork/status/2105037674901905633#m
 http://x.com/rendernetwork/status/2105037672142229741#m
 http://x.com/pudgypenguins/status/2105018401269887453#m
 http://x.com/MatrixAINetwork/status/2104954102371475713#m
+http://x.com/PaulFrambot/status/2105115267470639127#m
+http://x.com/PaulFrambot/status/2105133030943723642#m
