@@ -6530,3 +6530,6 @@ http://x.com/quan_eth/status/2105739597280153617#m
 http://x.com/MatrixAINetwork/status/2105680638044934262#m
 http://x.com/ethereumfndn/status/2105753290977980682#m
 http://x.com/haydotapp/status/2105654067535983079#m
+http://x.com/Nexo/status/2105946156144504945#m
+http://x.com/Morpho/status/2105925763291856947#m
+http://x.com/therollupco/status/2105832746753175696#m
