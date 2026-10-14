@@ -6697,3 +6697,5 @@ http://x.com/gosodax/status/2110397091985944920#m
 http://x.com/hedera/status/2110390169907982567#m
 http://x.com/rendernetwork/status/2110403676045230110#m
 http://x.com/nothaslu/status/2110208155183656992#m
+http://x.com/AlgoFoundation/status/2110416364498538681#m
+http://x.com/AlgoFoundation/status/2110416351991111950#m
