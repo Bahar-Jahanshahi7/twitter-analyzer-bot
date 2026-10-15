@@ -6703,3 +6703,5 @@ http://x.com/circle/status/2110443634692903237#m
 http://x.com/HederaCommunity/status/2110474064888209805#m
 http://x.com/ETHGlobal/status/2110427914831552756#m
 http://x.com/HederaCommunity/status/2110430439555092767#m
+http://x.com/hedera/status/2110731838432129361#m
+http://x.com/hedera/status/2110731835366109641#m
